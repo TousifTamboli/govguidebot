@@ -1,0 +1,556 @@
+{
+    "document_info": {
+        "document_name_en": "Domicile Certificate",
+        "document_name_marathi": "अधिवास प्रमाणपत्र",
+        "document_name_hindi": "निवास प्रमाण पत्र",
+        "category": "Revenue",
+        "issuing_authority": "Tahsildar / Sub-Divisional Officer (SDO) — Revenue Department (Taluka/Tehsil Office)",
+        "issuing_department": "Revenue Department, Government of Maharashtra",
+        "legal_basis": "Revenue Department procedures and service listing under Maharashtra Right to Public Services Act, 2015 (Age, Nationality & Domicile service); relevant departmental GRs and DTE / Employment department rules referencing domicile requirements.",
+        "purpose": "To certify that an individual is a resident/domiciled in Maharashtra for purposes such as: state quota / domicile quota in education, state government recruitment / job portals, scholarships and state welfare schemes, reservation/seat allocation in state institutions and other official uses that require proof of long-term residence.",
+        "validity_period": "Lifetime (generally treated as lifetime unless a consuming authority explicitly requires a recent certificate); some agencies may require a certificate issued within a specified timeframe (check the receiving authority).",
+        "processing_time_normal": "15 working days (Revenue service listing for Age, Nationality & Domicile certificate under RTS: 15 days).",
+        "processing_time_tatkal": "DATA_NOT_AVAILABLE",
+        "application_modes": [
+            "Online",
+            "Offline",
+            "Both"
+        ],
+        "official_portal": "[https://aaplesarkar.mahaonline.gov.in/en](https://aaplesarkar.mahaonline.gov.in/en)",
+        "helpline_number": "1800-120-8040 (general MahaOnline / Aaple Sarkar helpdesk — use district helplines for local queries)",
+        "last_updated": "2025-10-29"
+    },
+    "eligibility": {
+        "age_requirement": "No minimum age — minors may apply through parents / guardians or have domicile based on parents' domicile.",
+        "residence_requirement": "Standard / commonly applied tests used in Maharashtra:\n1) **15 years continuous residence** in Maharashtra OR\n2) **Studied for at least 10 years** in educational institutions located in Maharashtra (often accepted as long-term residence proof for students) OR\n3) Born in Maharashtra (birth certificate + other proofs) OR\n4) Parent(s) domiciled in Maharashtra (for minors). \n(These tests are used across various departments; specific schemes may define alternate or additional conditions.)",
+        "income_limit": "Not applicable for domicile certificate itself (income limits are relevant for schemes such as EWS / scholarships but not for domicile determination).",
+        "domicile_requirement": true,
+        "other_criteria": [
+            "Applicant should normally apply in the Taluka/Tehsil of residence (jurisdiction based on address proof).",
+            "For migrants, continuous residence must be demonstrable by documents spanning the requisite years (bills, school records, voter list, rent agreements, etc.).",
+            "Parent's domicile or parent(s) long-term residence in Maharashtra is accepted to grant domicile for minors.",
+            "Certain departments (e.g., Higher Education, Employment) may ask for additional documents in prescribed proforma — always check the receiving authority's checklist."
+        ],
+        "who_can_apply": "Any Indian citizen who satisfies the residence/domicile criteria (15-year rule, schooling rule, birth in state, or parent domicile). Parents/guardians may apply on behalf of minors.",
+        "exclusions": [
+            "Temporary residents (staying in Maharashtra for short-term work/assignment without evidence of long-term residence).",
+            "Foreign nationals (unless specific rules permit).",
+            "Persons unable to produce acceptable documentary evidence for the claimed period of residence (subject to revenue officer discretion)."
+        ]
+    },
+    "required_documents": [
+        {
+            "doc_name_en": "Aadhaar Card / Identity Proof",
+            "doc_name_marathi": "आधार कार्ड / ओळख पुरावा",
+            "is_mandatory": true,
+            "alternatives": [
+                "Voter ID (EPIC)",
+                "Passport",
+                "Driving Licence",
+                "PAN Card"
+            ],
+            "specifications": "Original for verification and one self-attested copy.",
+            "number_of_copies": 1,
+            "notes": "Preferred for identity and linkage to mobile for OTPs on Aaple Sarkar."
+        },
+        {
+            "doc_name_en": "Proof(s) of long-term residence (to demonstrate 15 years / schooling / birth)",
+            "doc_name_marathi": "दीर्घकालीन वास्तव्याचे पुरावे (15 वर्षे / शिक्षण / जन्म दाखविणारे)",
+            "is_mandatory": true,
+            "alternatives": [
+                "School Leaving Certificate / Bonafide Certificate showing years of study in Maharashtra",
+                "SSC / HSC mark-sheet indicating school (as evidence of schooling in Maharashtra)",
+                "Utility bills (electricity / water) spanning years",
+                "Property tax receipts / property documents",
+                "Rent agreements (stamped) spanning period",
+                "Voter ID entries from earlier years",
+                "Bank passbooks / bank statements showing local address across years",
+                "Birth certificate (if born in Maharashtra)"
+            ],
+            "specifications": "Provide as many corroborative documents as possible to prove continuous residence; originals for verification and certified/self-attested copies for submission.",
+            "number_of_copies": "Multiple (1 each of all relevant documents)",
+            "notes": "For school-based proof the DTE and many district authorities accept 10 years of schooling in Maharashtra as sufficient evidence for domicile for students."
+        },
+        {
+            "doc_name_en": "Parent's Domicile / Identity Proof (for minors)",
+            "doc_name_marathi": "पालकांचे अधिवास / ओळखपुरावे (अल्पवयीनांसाठी)",
+            "is_mandatory": false,
+            "alternatives": [
+                "Parent's Aadhaar",
+                "Parent's voter ID",
+                "Parent's domicile certificate"
+            ],
+            "specifications": "Originals for verification; self-attested copy to be attached.",
+            "number_of_copies": 1,
+            "notes": "Used frequently to establish domicile for applicants below 18 or where applicant's long-term records are unavailable."
+        },
+        {
+            "doc_name_en": "Application form / Declaration",
+            "doc_name_marathi": "अर्ज फॉर्म / घोषणा",
+            "is_mandatory": true,
+            "alternatives": [
+                "Aaple Sarkar online form",
+                "Taluka/Tehsil physical form"
+            ],
+            "specifications": "Signed declaration about residence history; online applicants must complete the portal form and upload documents.",
+            "number_of_copies": 1,
+            "notes": "Use the latest form/checklist from Aaple Sarkar or district portal."
+        },
+        {
+            "doc_name_en": "Photograph",
+            "doc_name_marathi": "छायाचित्र",
+            "is_mandatory": false,
+            "alternatives": [],
+            "specifications": "Passport-size photograph if required by local office.",
+            "number_of_copies": 1,
+            "notes": "Some Tehsil offices ask for one or two photographs for record."
+        }
+    ],
+    "application_process_online": {
+        "available": true,
+        "portal_name": "Aaple Sarkar",
+        "portal_url": "[https://aaplesarkar.mahaonline.gov.in/en](https://aaplesarkar.mahaonline.gov.in/en)",
+        "steps": [
+            {
+                "step_number": 1,
+                "step_title_en": "Register / Login on Aaple Sarkar",
+                "step_title_marathi": "Aaple Sarkar वर नोंदणी / लॉगिन",
+                "step_description_en": "Create an account on Aaple Sarkar (use mobile number and Aadhaar/ID for verification) or login using existing credentials.",
+                "step_description_marathi": "Aaple Sarkar वर खाते तयार करा (मोबाईल नंबर व आधार/ओळखसह) किंवा विद्यमान खाते वापरा.",
+                "tips": "Use the mobile number linked to Aadhaar for smooth OTP verification; keep ID documents handy.",
+                "common_errors": "Mismatched name/address vs identity proof leading to delays.",
+                "estimated_time": "5-10 minutes"
+            },
+            {
+                "step_number": 2,
+                "step_title_en": "Select Service — Age, Nationality & Domicile (or Domicile only if listed)",
+                "step_title_marathi": "सेवा निवडा — वय, राष्ट्रीयत्व आणि अधिवास",
+                "step_description_en": "Choose the correct service on the portal (Age, Nationality & Domicile or Domicile Certificate) and start a new application.",
+                "step_description_marathi": "पोर्तलवर योग्य सेवा निवडा (वय, राष्ट्रीयत्व व अधिवास) आणि नवीन अर्ज सुरू करा.",
+                "tips": "Read the checklist on the service page before starting to avoid missing documents.",
+                "common_errors": "Selecting wrong service; not checking category-specific checklist.",
+                "estimated_time": "2-3 minutes"
+            },
+            {
+                "step_number": 3,
+                "step_title_en": "Fill Application & Residence History",
+                "step_title_marathi": "अर्ज भरा व वास्तव्याचा इतिहास द्या",
+                "step_description_en": "Enter personal details, addresses and dates of residence/study, parent details (if applicable) and declare the basis for domicile (15 years / schooling / birth).",
+                "step_description_marathi": "वैयक्तिक माहिती, पत्ते व वास्तव्य/शिक्षणाची तारीख भरा, पालक माहिती भरा (अवलंबून असल्यास) व अधिवासाचा आधार निवडा (15 वर्षे / शाळा / जन्म).",
+                "tips": "Use exact dates from documents (school certificates, bills) to avoid mismatches.",
+                "common_errors": "Inconsistent dates between documents and the form.",
+                "estimated_time": "10-20 minutes"
+            },
+            {
+                "step_number": 4,
+                "step_title_en": "Upload Supporting Documents",
+                "step_title_marathi": "समर्थक कागदपत्रे अपलोड करा",
+                "step_description_en": "Upload scanned copies of identity, address, school records, utility bills, birth certificate, parental domicile etc. as required by checklist.",
+                "step_description_marathi": "ओळख, पत्ता, शाळेची नोंद, वीज बिल, जन्म प्रमाणपत्र, पालकांचे अधिवास इत्यादी स्कॅन केलेल्या प्रत्या अपलोड करा.",
+                "tips": "Scan pages clearly, keep file sizes within portal limits, and name files correctly for easy verification.",
+                "common_errors": "Blurry scans, wrong file formats, files exceeding size limit.",
+                "estimated_time": "5-20 minutes depending on documents"
+            },
+            {
+                "step_number": 5,
+                "step_title_en": "Pay Fee (if applicable) & Submit",
+                "step_title_marathi": "फी भरा (लागू असल्यास) व सबमिट करा",
+                "step_description_en": "Pay statutory/portal fee and submit application. Save the acknowledgement / application number for tracking.",
+                "step_description_marathi": "नियोजित/पोर्टल फी भरा व अर्ज सबमिट करा. ट्रॅकिंगसाठी पावती/अर्ज क्रमांक जतन करा.",
+                "tips": "Take screenshot of payment receipt and acknowledgement.",
+                "common_errors": "Payment failure without saving receipt; not noting application number.",
+                "estimated_time": "2-5 minutes"
+            },
+            {
+                "step_number": 6,
+                "step_title_en": "Verification by Taluka Office",
+                "step_title_marathi": "तालुका कार्यालयाद्वारे पडताळणी",
+                "step_description_en": "Revenue staff (clerical officer, Awwal Karkun, Talathi) and Tahsildar verify documents. Field verification may be ordered if required. Applicant may be asked for additional proof or clarifications.",
+                "step_description_marathi": "महसूल कर्मचारी (क्लर्क, अावल कारकुन, तालाठी) व तहसिलदार कागदपत्रे तपासतात. आवश्यक असल्यास फील्ड पडताळणी केली जाऊ शकते. अर्जदाराला अतिरिक्त पुरावे मागवले जाऊ शकतात.",
+                "tips": "Respond promptly to calls/online messages from the taluka office to avoid delays.",
+                "common_errors": "Ignoring office queries or not supplying originals when requested.",
+                "estimated_time": "Varies; part of RTS 15-working day timeline"
+            },
+            {
+                "step_number": 7,
+                "step_title_en": "Issuance & Download",
+                "step_title_marathi": "जारी करणे व डाउनलोड करा",
+                "step_description_en": "On approval, certificate is digitally signed / issued by the Tahsildar and made available for download on the portal or for collection from the tehsil office.",
+                "step_description_marathi": "मान्यतेनंतर तहसीलदार द्वारा प्रमाणपत्रावर डिजिटल स्वाक्षरी केली जाते व पोर्टलवरून डाउनलोडसाठी किंवा तहसील कार्यालयातून घेण्यासाठी उपलब्ध होते.",
+                "tips": "Verify certificate details (name, address, DOB) immediately and request correction if needed.",
+                "common_errors": "Not verifying the issued certificate for errors.",
+                "estimated_time": "Immediate after approval"
+            }
+        ],
+        "documents_upload_format": "PDF / JPG (portal-specific file-size limits; commonly 2-5 MB per file).",
+        "payment_gateway": "Netbanking / Debit/Credit Card / UPI (portal dependent). Some Seva Kendras may accept cash/card for facilitation charges."
+    },
+    "application_process_offline": {
+        "available": true,
+        "form_number": "Standard 'Age, Nationality & Domicile' application form used by Revenue Department (taluka-specific hardcopy available)",
+        "where_to_get_form": "Tehsil / Tahsildar Office, District Collectorate, or download PDF/checklist from Aaple Sarkar / district portal",
+        "form_download_url": "[https://aaplesarkar.mahaonline.gov.in/en](https://aaplesarkar.mahaonline.gov.in/en) (service page and PDF checklist available on portal / district websites)",
+        "submission_office": "Tehsil/Taluka Office (Tahsildar / Nayab Tahsildar)",
+        "steps": [
+            {
+                "step_number": 1,
+                "step_title_en": "Collect Form & Checklist",
+                "step_title_marathi": "फॉर्म व तपासणी यादी मिळवा",
+                "step_description_en": "Get the latest application form and checklist from the Tahsildar office or district website; confirm required proofs for your category (student/minor/migrant).",
+                "step_description_marathi": "तहसीलदार कार्यालय किंवा जिल्हा वेबसाइटवरून नवीनतम अर्ज फॉर्म व तपासणी यादी घ्या; आपल्या श्रेणीसाठी आवश्यक पुरावे (विद्यार्थी/अल्पवयीन/स्थळांतरित) पुष्टी करा.",
+                "tips": "Ask counter staff for any district-specific additional proofs.",
+                "common_errors": "Using outdated form or missing a district-specific requirement."
+            },
+            {
+                "step_number": 2,
+                "step_title_en": "Fill Form & Attach Documents",
+                "step_title_marathi": "फॉर्म भरा व कागदपत्रे जोडा",
+                "step_description_en": "Complete the physical form, attach self-attested photocopies of identity, residence, school records, birth certificate or parent domicile as applicable; keep originals for verification.",
+                "step_description_marathi": "फिजिकल फॉर्म पूर्ण करा, ओळख, वास्तव्य, शाळेची नोंद, जन्म प्रमाणपत्र किंवा पालकांचे अधिवास इत्यादींच्या स्वयं-प्रमाणित प्रती जोडा; मूळ कागदपत्रे पडताळणीसाठी ठेवा.",
+                "tips": "Organize documents chronologically to help the verifying officer.",
+                "common_errors": "Missing signature, incomplete addresses, or missing annexures."
+            },
+            {
+                "step_number": 3,
+                "step_title_en": "Submit & Obtain Acknowledgement",
+                "step_title_marathi": "सादर करा व पावती घ्या",
+                "step_description_en": "Submit at the revenue counter, pay the statutory fee (if any), and obtain the acknowledgement receipt containing application number for tracking.",
+                "step_description_marathi": "महसूल काउंटरवर सादर करा, नियमानुसार फी भरा (अगर लागेल) आणि ट्रॅकिंगसाठी अर्ज क्रमांक असलेली पावती घ्या.",
+                "tips": "Retain the receipt and note the officer's name for follow-up.",
+                "common_errors": "Failing to take acknowledgement or noting wrong application number."
+            },
+            {
+                "step_number": 4,
+                "step_title_en": "Verification & Collection",
+                "step_title_marathi": "पडताळणी व प्रमाणपत्र घेणे",
+                "step_description_en": "Office verifies documents; field verification may be carried out. Once approved, collect the certificate or download if district provides e-issuance.",
+                "step_description_marathi": "कार्यालय कागदपत्रे तपासते; फील्ड पडताळणी केली जाऊ शकते. मान्य झाले की प्रमाणपत्र घ्या किंवा जिल्हा ई-इश्यू असल्यास डाउनलोड करा.",
+                "tips": "If asked for additional documents, submit promptly to avoid delays.",
+                "common_errors": "Delaying submission of additional proofs when asked."
+            }
+        ]
+    },
+    "fees_structure": [
+        {
+            "category": "General",
+            "fee_amount": 20,
+            "currency": "INR",
+            "payment_modes": [
+                "Online (portal)",
+                "Cash (Tehsil counter)",
+                "POS / Card at Seva Kendra"
+            ],
+            "exemptions": "Some categories (e.g., BPL or designated welfare categories) may be exempt from service charges per district circulars; check local notices."
+        },
+        {
+            "category": "Students / BPL",
+            "fee_amount": 0,
+            "currency": "INR",
+            "payment_modes": [
+                "N/A"
+            ],
+            "exemptions": "Some districts may waive fees for students or BPL on production of valid proof (district-specific)."
+        },
+        {
+            "category": "Seva Kendra Facilitation Charge",
+            "fee_amount": "Varies (facility/handling charges charged by private/third-party Seva Kendras; example amounts reported in media vary)",
+            "currency": "INR",
+            "payment_modes": [
+                "Cash",
+                "Card at centre"
+            ],
+            "exemptions": "These are non-statutory facilitation charges — check centre disclosure."
+        }
+    ],
+    "district_variations": [
+        {
+            "district_name": "Mumbai City",
+            "variations": "Urban verification is typically stricter — municipal/utility/municipal property tax records and voter lists are frequently used. Some services may involve Municipal Corporation counters or ward offices for address corroboration.",
+            "special_requirements": [
+                "Recent municipal/utility bill or property tax receipt",
+                "School records showing attendance in Mumbai schools (if using schooling route)"
+            ],
+            "different_fees": "No statutory change, but facilitation charges at Seva Kendras/municipal counters may vary.",
+            "different_offices": "Ward office / BMC assistance counters may assist with verification.",
+            "notes": "Metropolitan job portals and schemes may require explicit Mumbai domicile/borough-specific criteria — check scheme notifications."
+        },
+        {
+            "district_name": "Pune",
+            "variations": "Educational records (school/college bonafide) are commonly accepted as strong proof — many institutions requiring domicile will explicitly accept SSC/HSC / school bonafide certificates.",
+            "special_requirements": [
+                "Bonafide certificate from school/college for applicants relying on schooling evidence"
+            ],
+            "different_fees": "DATA_NOT_AVAILABLE",
+            "different_offices": "Taluka Tahsildar; some municipal civic facilitation counters.",
+            "notes": "DTE and technical education admissions widely accept school-based domicile proofs in Pune region."
+        },
+        {
+            "district_name": "Nagpur",
+            "variations": "District pages and tehsils accept combination of utility bills, voter lists and school records; field verification used in doubtful cases.",
+            "special_requirements": [
+                "Voter list entries and electricity bills over the years"
+            ],
+            "different_fees": "DATA_NOT_AVAILABLE",
+            "different_offices": "Taluka/Tahsildar office and Collectorate verification cell where applicable.",
+            "notes": "Applicants coming from other states may need more documentary corroboration."
+        },
+        {
+            "district_name": "Nashik",
+            "variations": "Rural talukas rely more on Gramsevak/Talathi attestations, school records, land records (khasra) for long-term residence proof.",
+            "special_requirements": [
+                "Gramsevak / revenue village records or land records"
+            ],
+            "different_fees": "DATA_NOT_AVAILABLE",
+            "different_offices": "Taluka Tahsildar office; Gramsevak attestations in village-level matters",
+            "notes": "Field verification common in rural domicile determinations."
+        },
+        {
+            "district_name": "Thane",
+            "variations": "Urban-rural mix; municipal tax receipts or tenancy agreements are often used in urban pockets while rural pockets use revenue records/schooling evidence.",
+            "special_requirements": [
+                "Property tax receipt / rent agreement / voter ID"
+            ],
+            "different_fees": "DATA_NOT_AVAILABLE",
+            "different_offices": "Taluka Tehsil office; Municipal facilitation centers sometimes act as intermediaries.",
+            "notes": "Thane urban localities may require multiple corroborative documents."
+        }
+    ],
+    "offices": [
+        {
+            "district": "Mumbai City",
+            "taluka": "Mumbai",
+            "office_type": "Tehsil Office",
+            "office_name": "Tahsildar Office, Mumbai City",
+            "address": "Collectorate / Tahsildar Complex (Exact address varies by ward/taluka; check Municipal/Taluka website)",
+            "pincode": "400001",
+            "contact_number": "+91-22-XXXXXXX",
+            "email": "DATA_NOT_AVAILABLE",
+            "working_hours": "10:00 AM - 5:00 PM (Mon-Fri)",
+            "weekly_off": "Saturday, Sunday",
+            "best_time_to_visit": "Morning hours (10:00–12:30)",
+            "latitude": 18.9270,
+            "longitude": 72.8347
+        },
+        {
+            "district": "Pune",
+            "taluka": "Pune",
+            "office_type": "Tahsildar Office",
+            "office_name": "Tahsildar Office, Pune",
+            "address": "Tahsildar / Collectorate Complex, Pune (see district portal for exact location)",
+            "pincode": "411001",
+            "contact_number": "+91-20-XXXXXXX",
+            "email": "[revenue.pune@maharashtra.gov.in](mailto:revenue.pune@maharashtra.gov.in) (DATA_NOT_VERIFIED)",
+            "working_hours": "10:00 AM - 5:00 PM (Mon-Fri)",
+            "weekly_off": "Saturday, Sunday",
+            "best_time_to_visit": "Morning hours",
+            "latitude": 18.5204,
+            "longitude": 73.8567
+        },
+        {
+            "district": "Nagpur",
+            "taluka": "Nagpur",
+            "office_type": "Tahsildar Office",
+            "office_name": "Tahsildar Office, Nagpur",
+            "address": "Tahsildar Office, Nagpur District Collectorate (refer district website for exact address)",
+            "pincode": "440001",
+            "contact_number": "+91-71-XXXXXXX",
+            "email": "DATA_NOT_AVAILABLE",
+            "working_hours": "10:00 AM - 5:00 PM (Mon-Fri)",
+            "weekly_off": "Saturday, Sunday",
+            "best_time_to_visit": "Morning hours",
+            "latitude": 21.1458,
+            "longitude": 79.0882
+        },
+        {
+            "district": "Nashik",
+            "taluka": "Nashik",
+            "office_type": "Tahsildar Office",
+            "office_name": "Tahsildar Office, Nashik",
+            "address": "Tahsildar Office, Nashik District Collectorate (check district portal for exact location)",
+            "pincode": "422001",
+            "contact_number": "+91-25-XXXXXXX",
+            "email": "DATA_NOT_AVAILABLE",
+            "working_hours": "10:00 AM - 5:00 PM (Mon-Fri)",
+            "weekly_off": "Saturday, Sunday",
+            "best_time_to_visit": "Morning hours",
+            "latitude": 19.9975,
+            "longitude": 73.7898
+        },
+        {
+            "district": "Thane",
+            "taluka": "Thane",
+            "office_type": "Tahsildar Office",
+            "office_name": "Tahsildar Office, Thane",
+            "address": "Tahsildar / Collectorate building (refer district portal for exact address)",
+            "pincode": "400602",
+            "contact_number": "+91-25-XXXXXXX",
+            "email": "DATA_NOT_AVAILABLE",
+            "working_hours": "10:00 AM - 5:00 PM (Mon-Fri)",
+            "weekly_off": "Saturday, Sunday",
+            "best_time_to_visit": "Morning hours",
+            "latitude": 19.2183,
+            "longitude": 72.9781
+        }
+    ],
+    "faqs": [
+        {
+            "question_en": "What is the minimum residence requirement for domicile in Maharashtra?",
+            "question_marathi": "महाराष्ट्रात अधिवासासाठी किमान वास्तव्याची अट किती आहे?",
+            "answer_en": "Commonly used test: 15 years continuous residence in Maharashtra. For students, 10 years of schooling in Maharashtra is often accepted as domicile proof. Birth in Maharashtra is also a valid basis.",
+            "answer_marathi": "सामान्यतः वापरली जाणारी अट: महाराष्ट्रात सतत 15 वर्षांचे वास्तव्य. विद्यार्थ्यांसाठी महाराष्ट्रात 10 वर्षे शिक्षण हा अधिवास पुरावा म्हणून स्वीकारला जातो. महाराष्ट्रात जन्म हेही वैध आधार आहे.",
+            "category": "Eligibility"
+        },
+        {
+            "question_en": "Can I use my school records as proof of domicile?",
+            "question_marathi": "मी माझे शाळेचे नोंदी अधिवास पुराव्यासाठी वापरू शकतो का?",
+            "answer_en": "Yes — SSC/HSC mark-sheets, school leaving certificates or bonafide certificates showing years of study in Maharashtra are commonly accepted evidence, especially for students.",
+            "answer_marathi": "होय — Maharashtra मध्ये शाळेत शिकण्याचे वर्ष दाखवणारे SSC/HSC मार्कशीट, शाळा सोडण्याचे प्रमाणपत्र किंवा बोनाफाइड प्रमाणपत्र सामान्यतः मान्य केले जातात, विशेषतः विद्यार्थ्यांसाठी.",
+            "category": "Documents"
+        },
+        {
+            "question_en": "Does being born in Maharashtra automatically give me domicile?",
+            "question_marathi": "महाराष्ट्रातील जन्म असणे मला आपोआप अधिवास देतं का?",
+            "answer_en": "Birth in Maharashtra is strong evidence of domicile, but offices may still ask for corroborative documents (birth certificate + proof of parents' residence) in some cases.",
+            "answer_marathi": "महाराष्ट्रात जन्म हा अधिवासाचा बळकट पुरावा आहे, परंतु काही प्रकरणांमध्ये कार्यालये आणखी समर्थन पुरावे (जन्म प्रमाणपत्र + पालकांचा वास्तव्य पुरावा) मागू शकतात.",
+            "category": "Birth / Migration"
+        },
+        {
+            "question_en": "Can migrants obtain domicile after moving to Maharashtra?",
+            "question_marathi": "इतर राज्यातून स्थलांतर केल्यानंतर व्यक्ती महाराष्ट्रात अधिवास मिळवू शकते का?",
+            "answer_en": "Yes — migrants can be granted domicile if they can show continuous residence for the required period (15 years) or otherwise satisfy the schooling/parental criteria. Documentary proof across years is crucial.",
+            "answer_marathi": "होय — स्थलांतरित व्यक्ती आवश्यक कालावधीचे (15 वर्षे) वास्तव्य दाखवून किंवा शिक्षण/पालकांच्या निकष पूर्ण करून अधिवास मिळवू शकतात. वर्षांनिहाय कागदपत्रे महत्वाची असतात.",
+            "category": "Migration"
+        },
+        {
+            "question_en": "Is domicile certificate mandatory for state government jobs / portals?",
+            "question_marathi": "राज्य शासनाच्या नोकऱ्या / पोर्टलसाठी अधिवास प्रमाणपत्र अनिवार्य आहे का?",
+            "answer_en": "Many state job notifications and the state job portal require domicile proof; the Government has made domicile mandatory in some recruitment/portal contexts. Check the specific recruitment/portal notification for exact requirements.",
+            "answer_marathi": "अनेक राज्य नोकरी सूचना व राज्य नोकरी पोर्टल अधिवास पुरावा मागतात; काही भरती/पोर्टल संदर्भांत अधिवास अनिवार्य केला गेला आहे. नेमक्या आवश्यकतांसाठी संबंधित सूचना तपासा.",
+            "category": "Usage"
+        },
+        {
+            "question_en": "How long does issuance take?",
+            "question_marathi": "जारी करण्यासाठी किती वेळ लागतो?",
+            "answer_en": "Typically 15 working days as per Revenue service listing under RTS; cases requiring field verification may take longer.",
+            "answer_marathi": "सर्वसाधारणपणे RTS अंतर्गत महसूल सेवा सूची नुसार 15 कार्यदिवस; फील्ड पडताळणी असलेल्या प्रकरणांना जास्त वेळ लागू शकतो.",
+            "category": "Processing Time"
+        }
+    ],
+    "common_issues": [
+        {
+            "issue_description_en": "Insufficient documentary proof for 15-year residence",
+            "issue_description_marathi": "15 वर्षांच्या वास्तव्यासाठी अपर्याप्त कागदपत्रे",
+            "solution_en": "Submit multiple corroborative documents (school records, old utility bills, voter entry, bank passbooks, rent agreements) spanning the required period; provide parents' domicile if applicant is minor.",
+            "solution_marathi": "आवश्यक कालावधी दर्शवणारी अनेक प्रमाणभूत कागदपत्रे सादर करा (शाळा नोंदी, जुन्या वीज बिल, मतदार यादी, बँक पासबुक, भाडे करार) ; अर्जदार अल्पवयीन असल्यास पालकांचे अधिवास द्या.",
+            "frequency": "High",
+            "prevention_tips": "Collect chronological proofs and organize them before applying."
+        },
+        {
+            "issue_description_en": "Mismatch between dates on different documents (school vs bills)",
+            "issue_description_marathi": "विभिन्न कागदपत्रांवरील तारखांमध्ये विसंगती (शाळा व बिल)",
+            "solution_en": "Provide an affidavit explaining the chronology and attach additional corroborative records; request officer to consider schooling evidence where consistent.",
+            "solution_marathi": "कालक्रम स्पष्ट करणारे शपथनामा द्या व अतिरिक्त समर्थन नोंदी संलग्न करा; जिथे शालेय पुरावे सुसंगत असतील तिथे ते विचारात घेण्याची विनंती करा.",
+            "frequency": "Medium",
+            "prevention_tips": "Ensure consistency in dates or prepare a clear annotated chronology of residence."
+        },
+        {
+            "issue_description_en": "Portal upload failures (format/size)",
+            "issue_description_marathi": "पोर्टलवर अपलोड अयशस्वी (फॉरमॅट/आकार)",
+            "solution_en": "Convert to accepted formats (PDF/JPG), compress files to meet size limits and retry; approach district helpdesk if persistent.",
+            "solution_marathi": "स्वीकारलेल्या फॉरमॅटमध्ये (PDF/JPG) रूपांतर करा, फाइल साईझ मर्यादेत आणण्यासाठी संकुचित करा आणि पुन्हा प्रयत्न करा; समस्या कायम असल्यास जिल्हा हेल्पडेस्कला संपर्क करा.",
+            "frequency": "Medium",
+            "prevention_tips": "Scan at recommended DPI and check portal instructions for file-size limits before uploading."
+        },
+        {
+            "issue_description_en": "Requests for additional field verification causing delays",
+            "issue_description_marathi": "अतिरिक्त फील्ड पडताळणीसाठी विनंत्या ज्यामुळे उशीर",
+            "solution_en": "Cooperate with field officers, provide required originals and local attestations timely; use RTS escalation if delays exceed statutory timeline.",
+            "solution_marathi": "फील्ड अधिकाऱ्यांशी सहकार्य करा, आवश्यक मूळ कागदपत्रे व स्थानिक प्रमाणपत्र वेळेत द्या; कायद्याने ठरविलेले वेळेपेक्षा जास्त विलंब झाल्यास RTS एस्केलेशन वापरा.",
+            "frequency": "Medium",
+            "prevention_tips": "Provide strong documentary evidence up-front to reduce need for field checks."
+        },
+        {
+            "issue_description_en": "Unclear guidance for migrated applicants",
+            "issue_description_marathi": "स्थळांतरित अर्जदारांसाठी अस्पष्ट मार्गदर्शन",
+            "solution_en": "Consult the local Tahsildar office before applying to understand accepted proof mix (e.g., rent + employment records + school records); gather as many corroborative proofs as possible.",
+            "solution_marathi": "अर्ज करण्यापूर्वी स्थानिक तहसीलदार कार्यालयाशी सल्ला घ्या आणि स्वीकारले जाणारे पुरावे समजून घ्या (उदा. भाडे + नोकरी नोंदी + शाळा नोंदी); शक्य तितके समर्थन पुरावे गोळा करा.",
+            "frequency": "Medium",
+            "prevention_tips": "Visit taluka counter for pre-check of documents."
+        }
+    ],
+    "tracking_information": {
+        "online_tracking_available": true,
+        "tracking_url": "[https://aaplesarkar.mahaonline.gov.in/en/MyApplication](https://aaplesarkar.mahaonline.gov.in/en/MyApplication) (track via application number / mobile OTP)",
+        "tracking_method": "Application number / Mobile number (OTP) via Aaple Sarkar or district e-service tracking pages",
+        "sms_updates": true,
+        "email_updates": true,
+        "estimated_response_time": "15 working days (typical); may be longer if field verification or additional scrutiny is required"
+    },
+    "grievance_redressal": {
+        "complaint_portal": "[https://aaplesarkar.mahaonline.gov.in/en](https://aaplesarkar.mahaonline.gov.in/en) (Aaple Sarkar contact & grievance functions) and district collectorate grievance portals",
+        "complaint_helpline": "1800-120-8040 (MahaOnline / Aaple Sarkar support) — use district collector / Tahsildar helplines for local escalation (numbers on district portals).",
+        "complaint_email": "DATA_NOT_AVAILABLE (use district/district-collectorate/revenue office emails published on official district portals)",
+        "escalation_process": "1) Approach the issuing Tahsildar / Nayab Tahsildar with acknowledgement; 2) First appeal to Sub-Divisional Officer (SDO) / First Appellate Officer as per RTS; 3) Second appeal to Additional Collector / Collector as per RTS/GR; 4) Use state grievance / RTI / legal remedy if administrative appeals do not resolve the matter.",
+        "ombudsman_details": "DATA_NOT_AVAILABLE (use district collectorate / state-level grievance channels as appropriate)"
+    },
+    "additional_notes": {
+        "recent_changes": "Digitization via Aaple Sarkar has standardized much of the workflow; Revenue Department published a Fees/Procedure/Checklist PDF for Age, Nationality & Domicile services with RTS timeline (15 days) and a nominal fee. Departments like DTE and Mahadbt explicitly list domicile certificate as a required document for admissions and beneficiary schemes.",
+        "seasonal_variations": "Rush during college admission windows (May–Aug) and recruitment drives; expect longer processing times during these peak periods.",
+        "special_provisions": "Special facilitation for students, elderly or physically challenged individuals via Seva Kendras or doorstep delivery schemes in some talukas; minors can derive domicile from parents' domicile certificate.",
+        "related_documents": [
+            "Income Certificate (for schemes where both domicile and income criteria apply)",
+            "Caste Certificate (if accessing caste-based reservations)",
+            "Birth Certificate (useful to prove Maharashtra birth)",
+            "School / College Bonafide / Mark sheets (SSC/HSC) — often accepted as residence proof for students"
+        ],
+        "useful_links": [
+            "Aaple Sarkar — Age, Nationality & Domicile service / application and checklist",
+            "Directorate of Technical Education (DTE) — admission brochures listing domicile as required document",
+            "MahaDBT and other departmental scheme pages citing domicile certificate requirement"
+        ]
+    },
+    "sources": [
+        {
+            "source_name": "Aaple Sarkar — Age, Nationality & Domicile service listing (Revenue Department)",
+            "source_url": "[https://aaplesarkar.mahaonline.gov.in/en/Login/Certificate_Documents?ServiceId=1253](https://aaplesarkar.mahaonline.gov.in/en/Login/Certificate_Documents?ServiceId=1253)",
+            "accessed_date": "2025-10-29",
+            "reliability": "Official/High"
+        },
+        {
+            "source_name": "Aaple Sarkar — Fees, Procedure & Checklist (Age, Nationality & Domicile) (Revenue Department PDF)",
+            "source_url": "[https://aaplesarkar.mahaonline.gov.in/pdf/Fees%2C%20Procedure%2C%20Checklist_Domicile%20Certificate.pdf](https://aaplesarkar.mahaonline.gov.in/pdf/Fees%2C%20Procedure%2C%20Checklist_Domicile%20Certificate.pdf)",
+            "accessed_date": "2025-10-29",
+            "reliability": "Official/High"
+        },
+        {
+            "source_name": "Directorate of Technical Education (DTE) Maharashtra — Diploma / Admission brochures referencing Domicile Certificate requirement",
+            "source_url": "[https://dte.maharashtra.gov.in/wp-content/uploads/2020/08/Diploma_Information_Brochure-2020_Web_English.pdf](https://dte.maharashtra.gov.in/wp-content/uploads/2020/08/Diploma_Information_Brochure-2020_Web_English.pdf)",
+            "accessed_date": "2025-10-29",
+            "reliability": "Official/High"
+        },
+        {
+            "source_name": "MahaDBT scheme listing (example) — domicile certificate as required document for scheme beneficiaries",
+            "source_url": "[https://mahadbt.maharashtra.gov.in/SchemeData/SchemeData?str=E9DDFA703C38E51A1FA3AA7E67D54CF402FD88D88C64949C41EC3238C8545A71](https://mahadbt.maharashtra.gov.in/SchemeData/SchemeData?str=E9DDFA703C38E51A1FA3AA7E67D54CF402FD88D88C64949C41EC3238C8545A71)",
+            "accessed_date": "2025-10-29",
+            "reliability": "Official/High"
+        },
+        {
+            "source_name": "Government of Maharashtra — Employment / 'Local person' definition (15 years residence) in departmental documentation",
+            "source_url": "[https://di.maharashtra.gov.in/mobile/](https://di.maharashtra.gov.in/mobile/)*layouts/15/DOIStaticSite/English/pdf/ELP*%20English%20GR_171108%20and%20ELP%20I%20and%20II_%20English.pdf",
+            "accessed_date": "2025-10-29",
+            "reliability": "Official/High"
+        },
+        {
+            "source_name": "Satara District — Age, Nationality & Domicile service (example district checklist showing acceptable proofs)",
+            "source_url": "[https://www.satara.gov.in/en/service/age-nationality-and-domicile-certificate/](https://www.satara.gov.in/en/service/age-nationality-and-domicile-certificate/)",
+            "accessed_date": "2025-10-29",
+            "reliability": "Official/High (district-level)"
+        },
+        {
+            "source_name": "Times of India (archive) — reporting on domicile rules and acceptance of school leaving certificate for students",
+            "source_url": "[https://timesofindia.indiatimes.com/city/mumbai/no-domicile-school-leaving-certificate-must-for-students/articleshow/29324541.cms](https://timesofindia.indiatimes.com/city/mumbai/no-domicile-school-leaving-certificate-must-for-students/articleshow/29324541.cms)",
+            "accessed_date": "2025-10-29",
+            "reliability": "High (reputable news; used to illustrate common practice of school records as proof)"
+        }
+    ]
+}

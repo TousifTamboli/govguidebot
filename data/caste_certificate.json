@@ -1,0 +1,657 @@
+{
+    "document_info": {
+        "document_name_en": "Caste Certificate",
+        "document_name_marathi": "जात प्रमाणपत्र",
+        "document_name_hindi": "जात प्रमाण पत्र",
+        "category": "Social Welfare/Revenue",
+        "issuing_authority": "Tahsildar / Nayab Tahsildar (Taluka/Tehsil Revenue Office) — issued by Revenue Department in coordination with Social Justice & Special Assistance Department (where verification required)",
+        "issuing_department": "Revenue Department (in coordination with Social Justice & Special Assistance Department, Maharashtra)",
+        "legal_basis": "Caste Certificate Rules (Maharashtra), relevant provisions under Maharashtra Acts for Scheduled Castes & Scheduled Tribes; GRs & circulars issued by Social Justice & Special Assistance Department (see Caste Certificate Rules, 2012 and subsequent GRs).",
+        "purpose": "To officially certify an individual's caste / community for purposes of reservation benefits (education, employment), access to welfare schemes for SC/ST/OBC/VJNT/SBC groups, allocation of scholarships/hostels, caste-based entitlements and for issuing related documents like Non-Creamy Layer certificate (for OBC benefits).",
+        "validity_period": "Lifetime (generally caste certificates are lifetime documents unless otherwise specified by a consuming authority).",
+        "processing_time_normal": "15 working days (RTS-listed service timeline; some district/service pages may list up to 18 working days for specific caste certificate services).",
+        "processing_time_tatkal": "DATA_NOT_AVAILABLE",
+        "application_modes": [
+            "Online",
+            "Offline",
+            "Both"
+        ],
+        "official_portal": "[https://aaplesarkar.mahaonline.gov.in/en](https://aaplesarkar.mahaonline.gov.in/en) (Aaple Sarkar — caste certificate service pages available on portal and district e-services)",
+        "helpline_number": "DATA_NOT_AVAILABLE",
+        "last_updated": "2025-10-29"
+    },
+    "eligibility": {
+        "age_requirement": "No minimum age. Minors can apply through parent/guardian. Age is not a determining factor for caste certificate issuance.",
+        "residence_requirement": "Applicant normally applies in the Taluka/Tehsil of residence (proof of residence required). If migrated, prior state's competent authority caste certificate may be considered; local taluka may require proof of residence and lineage. Specific residence-duration requirements are scheme-dependent. ",
+        "income_limit": "Not applicable for caste certificate itself (income slabs apply to NCL / EWS / other benefit schemes separately).",
+        "domicile_requirement": true,
+        "other_criteria": [
+            "Applicant must belong to the caste/community as notified for that category (SC, ST, OBC, VJNT, SBC) as per Maharashtra lists.",
+            "Caste is normally established by documentary evidence showing the caste of direct ancestor (usually father) or by genealogical proof or school/municipal/gramsevak records.",
+            "Where documentary proof of parent's caste is not available, relatives' caste certificates and a genealogical affidavit may be used pending scrutiny.",
+            "Hereditary verification may be required in some cases (see 'hereditary verification' below)."
+        ],
+        "who_can_apply": "Any person who claims to belong to a notified caste/community (SC/ST/OBC/VJNT/SBC) and has supporting proof; parent/guardian may apply on behalf of minors.",
+        "exclusions": [
+            "Persons who cannot substantiate their claim with acceptable documentary evidence or whose claimed caste is not notified in the Maharashtra list.",
+            "Certificates obtained from unauthorized/quasi authorities outside the competent authority list without valid verification may be rejected."
+        ]
+    },
+    "required_documents": [
+        {
+            "doc_name_en": "Application Form",
+            "doc_name_marathi": "अर्ज फॉर्म",
+            "is_mandatory": true,
+            "alternatives": [
+                "Downloaded form from Aaple Sarkar or district portal",
+                "Standard taluka form"
+            ],
+            "specifications": "Filled and signed application form (online submission requires filling the portal form).",
+            "number_of_copies": 1,
+            "notes": "Form layout may vary by district; use latest version from Aaple Sarkar or taluka office."
+        },
+        {
+            "doc_name_en": "Applicant Identity Proof (Aadhaar / Voter ID / Passport)",
+            "doc_name_marathi": "अर्जदार ओळखपत्र (आधार / मतदार ओळखपत्र / पासपोर्ट)",
+            "is_mandatory": true,
+            "alternatives": [
+                "Driving licence",
+                "PAN card"
+            ],
+            "specifications": "Original for verification + self-attested copy.",
+            "number_of_copies": 1,
+            "notes": "Aadhaar commonly used for online/offline identity verification."
+        },
+        {
+            "doc_name_en": "Residence Proof (Ration card / Electricity bill / Municipal documents)",
+            "doc_name_marathi": "निवास पुरावा (रशन कार्ड / वीज बिल / महानगरपालिकेची कागदपत्रे)",
+            "is_mandatory": true,
+            "alternatives": [
+                "Rent agreement",
+                "Bank passbook with address"
+            ],
+            "specifications": "Recent proof preferred; original for verification + copy.",
+            "number_of_copies": 1,
+            "notes": "Used to establish jurisdiction for issuing Tahsildar office."
+        },
+        {
+            "doc_name_en": "Proof of Caste (father's/mother's caste certificate / ancestor's certificate)",
+            "doc_name_marathi": "जात पुरावा (वडिलांचे/आईचे जात प्रमाणपत्र / पूर्वजांचे प्रमाणपत्र)",
+            "is_mandatory": true,
+            "alternatives": [
+                "Parent's caste certificate issued by competent authority",
+                "Relative's certificate with genealogical affidavit"
+            ],
+            "specifications": "Originals where available; if not available, other admissible documentary evidence (school records, old service records) may be provided.",
+            "number_of_copies": 1,
+            "notes": "Taluka may ask for earliest available documentary proof such as parent's caste certificate, school leaving certificate mentioning caste, or 1970s/older identity documents."
+        },
+        {
+            "doc_name_en": "School Records / Old Records (if parent's certificate not available)",
+            "doc_name_marathi": "शाळेचे नोंदी / जुने नोंदी (वडिलांचे प्रमाणपत्र उपलब्ध नसल्यास)",
+            "is_mandatory": false,
+            "alternatives": [
+                "School leaving certificate",
+                "Old municipal records",
+                "Service records (employer)"
+            ],
+            "specifications": "Copies with originals for verification.",
+            "number_of_copies": 1,
+            "notes": "Often used in hereditary verification."
+        },
+        {
+            "doc_name_en": "Genealogical Affidavit / Family Tree affidavit",
+            "doc_name_marathi": "वंशावळी शपथनामा / कुटुंब वृक्ष शपथनामा",
+            "is_mandatory": false,
+            "alternatives": [
+                "Relative's caste certificate + affidavit"
+            ],
+            "specifications": "Notarized affidavit detailing family lineage and relationship to certificate-holder (when direct proof missing).",
+            "number_of_copies": 1,
+            "notes": "Commonly used when parental certificate not available; will be subject to scrutiny by Scrutiny Committee/CVC."
+        },
+        {
+            "doc_name_en": "Property / Revenue Records (if used as supporting proof)",
+            "doc_name_marathi": "मालमत्ता / महसूल नोंदी (समर्थन पुरावा म्हणून)",
+            "is_mandatory": false,
+            "alternatives": [
+                "Khasra/ledger extracts",
+                "Property tax receipts"
+            ],
+            "specifications": "Copies as applicable; originals for verification may be required.",
+            "number_of_copies": 1,
+            "notes": "Helps tie family to a village/area and corroborate genealogical claims."
+        },
+        {
+            "doc_name_en": "Photograph & Affidavit (if required by office)",
+            "doc_name_marathi": "छायाचित्र व शपथनामा (आवश्यक असल्यास)",
+            "is_mandatory": false,
+            "alternatives": [],
+            "specifications": "Recent passport-size photograph; affidavit when requested.",
+            "number_of_copies": 1,
+            "notes": "Office-specific requirement."
+        }
+    ],
+    "application_process_online": {
+        "available": true,
+        "portal_name": "Aaple Sarkar",
+        "portal_url": "[https://aaplesarkar.mahaonline.gov.in/en](https://aaplesarkar.mahaonline.gov.in/en) (Caste Certificate service available; ServiceId varies by caste type)",
+        "steps": [
+            {
+                "step_number": 1,
+                "step_title_en": "Registration / Login",
+                "step_title_marathi": "नोंदणी / लॉगिन",
+                "step_description_en": "Create/login to Aaple Sarkar account or use authenticated govt. login. Enter mobile number and verify via OTP.",
+                "step_description_marathi": "Aaple Sarkar वर खाते तयार करा/लॉगिन करा किंवा प्रमाणपत्रित शासन लॉगिन वापरा. मोबाईल नंबर प्रविष्ट करा व OTP ने पडताळणी करा.",
+                "tips": "Use same name spelling as in Aadhaar to avoid mismatches.",
+                "common_errors": "Mismatched name/address between portal entry and identity documents.",
+                "estimated_time": "5-10 minutes"
+            },
+            {
+                "step_number": 2,
+                "step_title_en": "Select Service: Caste Certificate (SC/ST/OBC/VJNT/SBC)",
+                "step_title_marathi": "सेवा निवडा: जात प्रमाणपत्र (SC/ST/OBC/VJNT/SBC)",
+                "step_description_en": "Choose the correct caste category service (SC, ST, OBC, VJNT, SBC) on portal and begin application.",
+                "step_description_marathi": "पोर्तलवर योग्य जात श्रेणी (SC/ST/OBC/VJNT/SBC) निवडा आणि अर्ज सुरू करा.",
+                "tips": "Read the specific category checklist before filling the form.",
+                "common_errors": "Selecting wrong caste category (e.g., OBC instead of SBC).",
+                "estimated_time": "2-5 minutes"
+            },
+            {
+                "step_number": 3,
+                "step_title_en": "Fill Applicant & Ancestry Details",
+                "step_title_marathi": "अर्जदार व वंशपरंपरा तपशील भरा",
+                "step_description_en": "Provide applicant details, names of parents, ancestral village, family tree details and declaration about community membership.",
+                "step_description_marathi": "अर्जदार तपशील, आई-वडिलांची नावे, पूर्वजांचा गाव, कुटुंब वृक्ष तपशील आणि समुदायातील सदस्यत्वाबद्दल घोषणा भरा.",
+                "tips": "Keep school/parental documents and relative certificate details handy.",
+                "common_errors": "Incomplete family lineage details leading to query by scrutiny committee.",
+                "estimated_time": "10-20 minutes"
+            },
+            {
+                "step_number": 4,
+                "step_title_en": "Upload Supporting Documents",
+                "step_title_marathi": "समर्थक कागदपत्रे अपलोड करा",
+                "step_description_en": "Upload identity, residence, parental/ancestor caste proofs, school records, affidavits in accepted format (PDF/JPG).",
+                "step_description_marathi": "ओळख, निवास, माता-पिता/पूर्वजांच्या जात पुरावे, शाळेचे नोंदी, शपथनामा स्वीकारलेल्या फॉरमॅटमध्ये अपलोड करा (PDF/JPG).",
+                "tips": "Scan originals legibly; if parental certificate not available, upload alternate evidence and genealogical affidavit.",
+                "common_errors": "Uploading blurred scans or wrong documents labeled incorrectly.",
+                "estimated_time": "5-20 minutes"
+            },
+            {
+                "step_number": 5,
+                "step_title_en": "Submit & Acknowledgement",
+                "step_title_marathi": "सबमिट करा आणि पावती घ्या",
+                "step_description_en": "Submit application and note acknowledgement/application number for tracking. Pay any prescribed fee if required.",
+                "step_description_marathi": "अर्ज सबमिट करा आणि ट्रॅकिंगसाठी पावती/अर्ज क्रमांक नोंद करा. लागू असल्यास फी भरा.",
+                "tips": "Save acknowledgement PDF and screenshots.",
+                "common_errors": "Not noting application number or payment receipt.",
+                "estimated_time": "2-5 minutes"
+            },
+            {
+                "step_number": 6,
+                "step_title_en": "Verification / Scrutiny",
+                "step_title_marathi": "तपासणी / छाननी",
+                "step_description_en": "Talathi/Tahsildar office will scrutinize documents. If direct proof is insufficient, case may be referred to Scrutiny Committee / Caste Validation Committee (CVC) at district level for hereditary/validity verification. Field verification may be ordered.",
+                "step_description_marathi": "तालाठी/तहसीलदार कार्यालय कागदपत्रांची छाननी करेल. थेट पुरावा अपुरा असल्यास प्रकरण जिल्हा पातळीवरील जात छाननी समिती / जात वैधता समितीस (CVC) हवालात जाऊ शकते. फील्ड तपासणी मागितली जाऊ शकते.",
+                "tips": "Respond promptly to any requests for additional documents or appearance before scrutiny committee.",
+                "common_errors": "Ignoring notices to appear before the scrutiny committee leading to rejection.",
+                "estimated_time": "Varies (may include committee scheduling time; included in RTS timeline)"
+            },
+            {
+                "step_number": 7,
+                "step_title_en": "Issuance / Download",
+                "step_title_marathi": "जारी करणे / डाउनलोड करा",
+                "step_description_en": "On approval, certificate will be digitally signed/issued by competent officer and available for download on portal or for physical collection from Tahsildar office.",
+                "step_description_marathi": "मान्यतेनंतर प्रमाणपत्र सक्षम अधिकाऱ्याद्वारे डिजिटल स्वाक्षरीसह जारी केले जाईल आणि पोर्टलवरून डाउनलोडसाठी उपलब्ध असेल किंवा तहसीलदार कार्यालयातून घेतले जाऊ शकते.",
+                "tips": "Check certificate for correct caste name, spelling and parental details immediately after issuance.",
+                "common_errors": "Not verifying certificate details after download and missing window for correction.",
+                "estimated_time": "Immediate after approval"
+            }
+        ],
+        "documents_upload_format": "PDF/JPG (follow portal limits; individual file size limits typically 2-5 MB).",
+        "payment_gateway": "Netbanking / Debit-Credit Card / UPI (portal dependent); small statutory fee may apply (district dependent)."
+    },
+    "application_process_offline": {
+        "available": true,
+        "form_number": "DATA_NOT_AVAILABLE (district/taluka standard caste certificate application form)",
+        "where_to_get_form": "Taluka/Tehsil Office (Tahsildar), District Collectorate, or download from district website",
+        "form_download_url": "Examples available on district portals and Aaple Sarkar (service pages) — see district e-services",
+        "submission_office": "Tehsil/Taluka Office (Tahsildar / Nayab Tahsildar) / District Social Justice office in some cases for scrutiny",
+        "steps": [
+            {
+                "step_number": 1,
+                "step_title_en": "Collect Form & Checklist",
+                "step_title_marathi": "फॉर्म व तपासणी यादी मिळवा",
+                "step_description_en": "Obtain the caste certificate form and checklist from the taluka office or district website.",
+                "step_description_marathi": "तालुका कार्यालय किंवा जिल्हा वेबसाइटवरून जात प्रमाणपत्र फॉर्म व तपासणी यादी घ्या.",
+                "tips": "Confirm documents required for your specific caste category (SC/ST/OBC/VJNT/SBC).",
+                "common_errors": "Using outdated/incomplete form."
+            },
+            {
+                "step_number": 2,
+                "step_title_en": "Fill Form & Attach Proofs",
+                "step_title_marathi": "फॉर्म भरा व पुरावे जोडा",
+                "step_description_en": "Fill in applicant and ancestry details; attach identity, residence, parental/ancestor caste proofs, school records, and affidavits as applicable.",
+                "step_description_marathi": "अर्जदार व वंश तपशील भरा; ओळख, निवास, माता-पितांच्या/पूर्वजांच्या जात पुरावे, शाळेचे रेकॉर्ड व शपथनामे संलग्न करा.",
+                "tips": "Carry originals for verification.",
+                "common_errors": "Incomplete lineage details or missing parental proof."
+            },
+            {
+                "step_number": 3,
+                "step_title_en": "Submit & Obtain Acknowledgement",
+                "step_title_marathi": "सादर करा व पावती घ्या",
+                "step_description_en": "Submit at revenue counter; pay prescribed fee if any and obtain acknowledgement slip with application number.",
+                "step_description_marathi": "महसूल काउंटरवर सादर करा; लागू फी भरा व अर्ज क्रमांकाची पावती घ्या.",
+                "tips": "Note application number for tracking; get receipt for any fee paid.",
+                "common_errors": "Not taking acknowledgement slip."
+            },
+            {
+                "step_number": 4,
+                "step_title_en": "Verification & Scrutiny Committee Referral (if required)",
+                "step_title_marathi": "तपासणी व छाननी समितीकडे रेफर (आवश्यक असल्यास)",
+                "step_description_en": "Office verifies documents; if proof insufficient, matter is referred to Scrutiny Committee / Caste Validation Committee (CVC) or District Social Justice authority. Applicant may be asked to appear.",
+                "step_description_marathi": "कार्यालय कागदपत्रे तपासते; पुरावा अपुरा असल्यास प्रकरण छाननी समिती / जात वैधता समितीकडे (CVC) किंवा जिल्हा सामाजिक न्याय प्राधिकरणाकडे रेफर केले जाते. अर्जदारास हजेरी लावण्यास सांगितले जाऊ शकते.",
+                "tips": "Respond to notices and produce any additional witnesses/records requested.",
+                "common_errors": "Missing committee appearance date resulting in delay/rejection."
+            },
+            {
+                "step_number": 5,
+                "step_title_en": "Collection of Certificate",
+                "step_title_marathi": "प्रमाणपत्र घेणे",
+                "step_description_en": "Collect certificate from Tahsildar office when notified, or download if the district provides e-issuance.",
+                "step_description_marathi": "सूचित केल्यावर तहसीलदार कार्यालयातून प्रमाणपत्र घ्या किंवा जिल्हा ई-इश्यू सुविधा असल्यास डाउनलोड करा.",
+                "tips": "Carry acknowledgement and identity proof for collection.",
+                "common_errors": "Not collecting within specified timeline leading to re-application."
+            }
+        ]
+    },
+    "fees_structure": [
+        {
+            "category": "General",
+            "fee_amount": 5,
+            "currency": "INR",
+            "payment_modes": [
+                "Online",
+                "Cash",
+                "POS at Seva Kendra"
+            ],
+            "exemptions": "Some categories (SC/ST/BPL) and specific welfare cases may be exempted from fees depending on district circulars."
+        },
+        {
+            "category": "SC/ST",
+            "fee_amount": 0,
+            "currency": "INR",
+            "payment_modes": [
+                "N/A"
+            ],
+            "exemptions": "Often fee exemption for SC/ST applicants — confirm with district."
+        },
+        {
+            "category": "BPL",
+            "fee_amount": 0,
+            "currency": "INR",
+            "payment_modes": [
+                "N/A"
+            ],
+            "exemptions": "BPL applicants often exempted from statutory/processing charges."
+        },
+        {
+            "category": "Seva Kendra Facilitation Charge",
+            "fee_amount": "Varies (example Rs. 69 reported in some Seva Kendra arrangements as facilitation/handling charge)",
+            "currency": "INR",
+            "payment_modes": [
+                "Cash",
+                "POS at center"
+            ],
+            "exemptions": "Service/handling charges are outside statutory government fee; check centre disclosure."
+        }
+    ],
+    "district_variations": [
+        {
+            "district_name": "Mumbai City",
+            "variations": "Urban procedures may require municipal/utility bills for address/jurisdiction checks; some municipal/ward offices assist with facilitation.",
+            "special_requirements": [
+                "Municipal records or property tax receipts for urban population"
+            ],
+            "different_fees": "Municipal facilitation fees may be charged by third-party centers.",
+            "different_offices": "Ward-level verification may be used for urban applicants before Tahsildar endorsement.",
+            "notes": "High-scrutiny for high-profile cases; metropolitan districts sometimes have dedicated CVC cells."
+        },
+        {
+            "district_name": "Pune",
+            "variations": "District provides downloadable forms; scrutiny committee (for ST/SC where required) functions as per district schedule.",
+            "special_requirements": [
+                "Employer/service records sometimes used for lineage verification"
+            ],
+            "different_fees": "DATA_NOT_AVAILABLE",
+            "different_offices": "Taluka Tahsildar / District Social Justice cell for scrutiny referrals",
+            "notes": "Applicants may be asked to appear before district committee for hereditary proof."
+        },
+        {
+            "district_name": "Nagpur",
+            "variations": "Scrutiny and CVC procedures active for ST/SC cases; some public campaigns for special drive verifications documented.",
+            "special_requirements": [
+                "School records, old land records"
+            ],
+            "different_fees": "DATA_NOT_AVAILABLE",
+            "different_offices": "District-level CVC / Scrutiny Committee offices in addition to Taluka",
+            "notes": "District websites publish specific GRs/circulars for scrutiny drives."
+        },
+        {
+            "district_name": "Nashik",
+            "variations": "Rural talukas often rely on Talathi/Gramsevak attestations and village-level records for hereditary verification.",
+            "special_requirements": [
+                "Gramsevak / Village records / School leaving certificates"
+            ],
+            "different_fees": "DATA_NOT_AVAILABLE",
+            "different_offices": "Taluka Tahsildar; District Scrutiny Committee as required",
+            "notes": "Field verification commonly used in rural claims."
+        },
+        {
+            "district_name": "Thane",
+            "variations": "Mix of urban and rural processes; municipal records used in urban areas; scrutiny referrals common for disputed claims.",
+            "special_requirements": [
+                "Property tax receipts or tenancy agreements may be used for urban addresses"
+            ],
+            "different_fees": "DATA_NOT_AVAILABLE",
+            "different_offices": "Taluka / Municipal facilitation centers",
+            "notes": "District may have dedicated Social Justice cell for caste verification."
+        }
+    ],
+    "offices": [
+        {
+            "district": "Mumbai City",
+            "taluka": "Mumbai",
+            "office_type": "Tehsil Office",
+            "office_name": "Tahsildar Office, Mumbai City",
+            "address": "Collectorate / Tahsildar Complex — refer Municipal/Taluka website for exact address",
+            "pincode": "400001",
+            "contact_number": "+91-22-XXXXXXX",
+            "email": "DATA_NOT_AVAILABLE",
+            "working_hours": "10:00 AM - 5:00 PM (Mon-Fri)",
+            "weekly_off": "Saturday, Sunday",
+            "best_time_to_visit": "Morning hours",
+            "latitude": 18.9270,
+            "longitude": 72.8347
+        },
+        {
+            "district": "Pune",
+            "taluka": "Pune",
+            "office_type": "Tahsildar Office",
+            "office_name": "Tahsildar Office, Pune",
+            "address": "Tahsildar / Collectorate Complex, Pune — check district portal for exact building and ward details",
+            "pincode": "411001",
+            "contact_number": "+91-20-XXXXXXX",
+            "email": "[revenue.pune@maharashtra.gov.in](mailto:revenue.pune@maharashtra.gov.in) (DATA_NOT_VERIFIED)",
+            "working_hours": "10:00 AM - 5:00 PM (Mon-Fri)",
+            "weekly_off": "Saturday, Sunday",
+            "best_time_to_visit": "Morning hours",
+            "latitude": 18.5204,
+            "longitude": 73.8567
+        },
+        {
+            "district": "Nagpur",
+            "taluka": "Nagpur",
+            "office_type": "Tahsildar Office",
+            "office_name": "Tahsildar Office, Nagpur",
+            "address": "Tahsildar Office, Nagpur District Collectorate — refer district website for exact address",
+            "pincode": "440001",
+            "contact_number": "+91-71-XXXXXXX",
+            "email": "DATA_NOT_AVAILABLE",
+            "working_hours": "10:00 AM - 5:00 PM (Mon-Fri)",
+            "weekly_off": "Saturday, Sunday",
+            "best_time_to_visit": "Morning hours",
+            "latitude": 21.1458,
+            "longitude": 79.0882
+        },
+        {
+            "district": "Nashik",
+            "taluka": "Nashik",
+            "office_type": "Tahsildar Office",
+            "office_name": "Tahsildar Office, Nashik",
+            "address": "Tahsildar Office, Nashik District Collectorate — check district portal for exact location",
+            "pincode": "422001",
+            "contact_number": "+91-25-XXXXXXX",
+            "email": "DATA_NOT_AVAILABLE",
+            "working_hours": "10:00 AM - 5:00 PM (Mon-Fri)",
+            "weekly_off": "Saturday, Sunday",
+            "best_time_to_visit": "Morning hours",
+            "latitude": 19.9975,
+            "longitude": 73.7898
+        },
+        {
+            "district": "Thane",
+            "taluka": "Thane",
+            "office_type": "Tahsildar Office",
+            "office_name": "Tahsildar Office, Thane",
+            "address": "Tahsildar / Collectorate building — check district site for exact address",
+            "pincode": "400602",
+            "contact_number": "+91-25-XXXXXXX",
+            "email": "DATA_NOT_AVAILABLE",
+            "working_hours": "10:00 AM - 5:00 PM (Mon-Fri)",
+            "weekly_off": "Saturday, Sunday",
+            "best_time_to_visit": "Morning hours",
+            "latitude": 19.2183,
+            "longitude": 72.9781
+        }
+    ],
+    "faqs": [
+        {
+            "question_en": "What categories of caste certificates are issued in Maharashtra?",
+            "question_marathi": "महाराष्ट्रात कोणत्या प्रकारच्या जात प्रमाणपत्रे जारी केली जातात?",
+            "answer_en": "SC (Scheduled Caste), ST (Scheduled Tribe), OBC (Other Backward Classes), VJNT (Vimukta Jati / Nomadic Tribes), SBC (Special Backward Category) — issued as per notified state lists.",
+            "answer_marathi": "SC (अनुसूचित जाती), ST (अनुसूचित जमाती), OBC (इतर मागासवर्गीय), VJNT (विमुक्त जाती / घुमंतू जमाती), SBC (विशेष मागासवर्ग) — राज्यात अधिसूचित सूचीप्रमाणे जारी.",
+            "category": "General"
+        },
+        {
+            "question_en": "Is a caste certificate lifetime?",
+            "question_marathi": "जात प्रमाणपत्र आयुष्यभरासाठी आहे का?",
+            "answer_en": "Yes — caste certificates are generally issued as lifetime documents. However, a consuming agency may ask for recent verification in exceptional cases.",
+            "answer_marathi": "होय — जात प्रमाणपत्र सामान्यतः आयुष्यासाठी जारी केले जाते. तथापि, काही अपवादात्मक प्रकरणांत उपयोग करणाऱ्या संस्थेने ताज्या पडताळणीची मागणी केली जाऊ शकते.",
+            "category": "Validity"
+        },
+        {
+            "question_en": "What is hereditary verification?",
+            "question_marathi": "वंशपरंपरागत पडताळणी म्हणजे काय?",
+            "answer_en": "Hereditary verification (used when direct parental caste proof is missing) means the Scrutiny Committee/Caste Validation Committee examines school records, village records, relatives' certificates, genealogical affidavits and may conduct field enquiries to establish lineage.",
+            "answer_marathi": "वंशपरंपरागत पडताळणी म्हणजे (जेव्हा थेट वडील/आईचा जात पुरावा नाही) छाननी समिती/जात वैधता समिती शाळेच्या नोंदी, गावातील नोंदी, नातेवाईकांचे प्रमाणपत्र, वंशावळी शपथनामे तपासते आणि वंश निश्चित करण्यासाठी फील्ड चौकशी करु शकते.",
+            "category": "Verification"
+        },
+        {
+            "question_en": "What documents prove caste?",
+            "question_marathi": "जात कोणते दस्तऐवज सिद्ध करतात?",
+            "answer_en": "Parent's caste certificate, school leaving certificate mentioning caste, old service records, electoral rolls, revenue records, relatives' caste certificate with genealogical affidavit; final determination is by the Scrutiny Committee/CVC.",
+            "answer_marathi": "वडिलांचे/आईचे जात प्रमाणपत्र, शाळा सोडण्याचे प्रमाणपत्र (जात नमूद असल्यास), जुने सेवा नोंदी, मतदार यादी, महसूल नोंदी, नातेवाईकांचे जात प्रमाणपत्र व वंशावळी शपथनामा; अंतिम निर्णय छाननी समिती/ CVC कडून होतो.",
+            "category": "Documents"
+        },
+        {
+            "question_en": "What is the role of the Scrutiny Committee / Caste Validation Committee (CVC)?",
+            "question_marathi": "छाननी समिती / जात वैधता समिती (CVC) ची भूमिका काय आहे?",
+            "answer_en": "The Scrutiny Committee / CVC reviews disputed or insufficiently-documented caste claims, examines evidence, conducts hearings/field enquiries and issues Validity Certificates or recommends rejection. It functions under state rules/GRs and district-level setups.",
+            "answer_marathi": "छाननी समिती / CVC संशयास्पद किंवा अपुरे दस्तऐवजीकरण असलेले जात दावे तपासते, पुरावे तपासते, सुनावणी/फील्ड चौकशी करते आणि वैधता प्रमाणपत्र जारी करते किंवा नाकारण्याची शिफारस करते. हे राज्य नियम/GR अंतर्गत जिल्हा पातळीवर कार्य करते.",
+            "category": "Verification"
+        },
+        {
+            "question_en": "How long does the scrutiny/validation take?",
+            "question_marathi": "छाननी/वैधता किती वेळेने होतात?",
+            "answer_en": "Time varies — routine applications follow RTS timelines (approx. 15 working days) but cases referred to Scrutiny Committee/CVC may take longer depending on committee schedules and field enquiries.",
+            "answer_marathi": "कालावधी वेगवेगळा असतो — सामान्य अर्ज RTS कालावधी (सुमारे 15 कार्यदिवस) मध्ये पूर्ण होतात परंतु छाननी समिती/ CVC कडे रेफर केलेले प्रकरणे समितीच्या वेळापत्रकानुसार आणि फील्ड चौकशीनुसार जास्त वेळ घेऊ शकतात.",
+            "category": "Processing Time"
+        },
+        {
+            "question_en": "Is a Caste Certificate same as NCL (Non-Creamy Layer) certificate?",
+            "question_marathi": "जात प्रमाणपत्र आणि NCL प्रमाणपत्र समान आहेत का?",
+            "answer_en": "No — caste certificate establishes community membership (e.g., OBC). NCL certificate is a separate document for OBC applicants certifying that their family falls in the non-creamy layer (income & other criteria) used for reservation benefits.",
+            "answer_marathi": "नाही — जात प्रमाणपत्र समुदाय सदस्यत्व निश्चित करते (उदा. OBC). NCL प्रमाणपत्र OBC अर्जदारासाठी स्वतंत्र कागद आहे जे कुटुंब गैर-क्रिमी लेयरमध्ये आहे हे दाखवते (आय व इतर निकष) आणि आरक्षणाच्या फायद्यासाठी वापरले जाते.",
+            "category": "Relationship with NCL"
+        },
+        {
+            "question_en": "Can I apply online and get certificate delivered to home?",
+            "question_marathi": "मी ऑनलाईन अर्ज करू शकतो आणि प्रमाणपत्र घरपर्यंत दिले जाऊ शकते का?",
+            "answer_en": "Many districts provide online application and e-issuance through Aaple Sarkar; doorstep delivery/printable e-certificate depends on district service options and Seva Kendra facilitation.",
+            "answer_marathi": "अनेक जिल्हे Aaple Sarkar द्वारे ऑनलाईन अर्ज व ई-इश्यू प्रदान करतात; होम डिलिव्हरी/प्रिंटेबल ई-प्रमाणपत्र हे जिल्हा सेवांवर व सेवा केंद्र सुविधेवर अवलंबून आहे.",
+            "category": "Application Process"
+        },
+        {
+            "question_en": "What happens if my caste claim is rejected by the CVC?",
+            "question_marathi": "जर CVC कडून माझा जात दावा नाकारला गेला तर काय होते?",
+            "answer_en": "You will receive a reasoned order; you may file an appeal as per the grievance/escalation mechanism (first appeal to designated officer and further appeals per RTS/GR provisions). Legal remedy is also available.",
+            "answer_marathi": "आपण कारणसहित आदेश प्राप्त कराल; RTS/GR नुसार आपल्याकडे प्रथम अपील व पुढील अपील करण्याचा मार्ग आहे. कायदेशीर उपायही उपलब्ध आहे.",
+            "category": "Grievance"
+        },
+        {
+            "question_en": "Do OBC certificates issued by another state work in Maharashtra?",
+            "question_marathi": "दुसऱ्या राज्यात जारी केलेले OBC प्रमाणपत्र महाराष्ट्रात चालते का?",
+            "answer_en": "Inter-state OBC certificates may be considered but often require verification; Maharashtra may ask for competent authority certificate from home state or may require local verification per rules.",
+            "answer_marathi": "इंटर-स्टेट OBC प्रमाणपत्रे विचारात घेतली जाऊ शकतात परंतु बहुतेकदा पडताळणी आवश्यक असते; महाराष्ट्र घरातील राज्याच्या अधिकृत प्राधिकरणाचे प्रमाणपत्र मागू शकतो किंवा स्थानिक पडताळणीची मागणी करु शकतो.",
+            "category": "Inter-State"
+        }
+    ],
+    "common_issues": [
+        {
+            "issue_description_en": "Application delayed due to insufficient parental/ancestor proof",
+            "issue_description_marathi": "पालक/पूर्वज पुराव्यांच्या अभावामुळे अर्जात उशीर",
+            "solution_en": "Provide alternative proofs (school records, relatives' certificates with genealogical affidavit) and cooperate with Scrutiny Committee or field verification.",
+            "solution_marathi": "पर्यायी पुरावे द्या (शाळेच्या नोंदी, नातेवाईकांचे प्रमाणपत्र व वंशावळी शपथनामा) व छाननी समिती/फील्ड तपासणीस सहकार्य करा.",
+            "frequency": "High",
+            "prevention_tips": "Check required lineage proofs at taluka before submission and gather multiple corroborative documents."
+        },
+        {
+            "issue_description_en": "Rejected claim because claimed caste not in Maharashtra notified list",
+            "issue_description_marathi": "मागणी केलेली जात महाराष्ट्राच्या अधिसूचित सूचीमध्ये नसल्यामुळे नाकारली गेली",
+            "solution_en": "Verify whether caste is notified in Maharashtra; if not, obtain guidance from Social Justice Dept. and consider legal remedy or apply for community recognition if applicable.",
+            "solution_marathi": "महाराष्ट्रात जात अधिसूचित आहे का ते तपासा; नसल्यास सामाजिक न्याय विभागाकडून मार्गदर्शन घ्या व लागू असल्यास समुदाय मान्यतेसाठी अर्ज करा किंवा कायदेशीर पर्याय पहा.",
+            "frequency": "Medium",
+            "prevention_tips": "Check Maharashtra notified caste lists before applying."
+        },
+        {
+            "issue_description_en": "Portal upload failures (file size/type)",
+            "issue_description_marathi": "पोर्टलवर फाइल अपलोड अयशस्वी (फाइल आकार/प्रकार)",
+            "solution_en": "Convert/compress files to accepted formats (PDF/JPG) within size limits and re-upload. Use district helpdesk if persistent.",
+            "solution_marathi": "फायली स्वीकारल्या जाणार्या फॉरमॅटमध्ये (PDF/JPG) रूपांतरित करा/संकुचित करा आणि पुन्हा अपलोड करा. समस्या राहिल्यास जिल्हा हेल्पडेस्कशी संपर्क करा.",
+            "frequency": "Medium",
+            "prevention_tips": "Scan at recommended DPI and check portal guidance for size limits."
+        },
+        {
+            "issue_description_en": "Asked to appear before Scrutiny Committee causing anxiety/delay",
+            "issue_description_marathi": "छाननी समिती समोर उपस्थित राहण्यास सांगितल्यामुळे चिंतेचा व उशीरचा सामना",
+            "solution_en": "Attend on the scheduled date with originals and witnesses/relatives if requested. Bring corroborative records (school/municipal/service).",
+            "solution_marathi": "नियोजित दिवशी मूळ कागदपत्रे व आवश्यक असल्यास साक्षीदार/नातेवाईकांसह हजर व्हा. पुष्टी करणारे नोंदी (शाळा/महानगरपालिका/सेवा) घ्या.",
+            "frequency": "Medium",
+            "prevention_tips": "Submit thorough evidence with initial application to reduce chances of committee referral."
+        },
+        {
+            "issue_description_en": "Name/spelling mismatches across documents",
+            "issue_description_marathi": "दस्तऐवजांमधील नाव/स्पेलिंग वेगळेपणा",
+            "solution_en": "Provide affidavit linking name variants or official documents proving name change (e.g., marriage certificate). Request correction before issuance if noticed.",
+            "solution_marathi": "नावाच्या वेगवेगळेपणाशी लिंक करणारे शपथपत्र किंवा नाव बदल सिद्ध करणारी अधिकृत कागदपत्रे (उदा. विवाह प्रमाणपत्र) द्या. आढळल्यास जारीपूर्व दुरुस्ती मागवा.",
+            "frequency": "Medium",
+            "prevention_tips": "Use consistent spellings across documents where possible; rectify earlier records if needed."
+        },
+        {
+            "issue_description_en": "Delay due to district CVC scheduling backlog",
+            "issue_description_marathi": "जिल्हा CVC ची वेळापत्रक बॅकलॉगमुळे उशीर",
+            "solution_en": "Follow up with Tahsildar office, request expedited hearing citing educational/employment deadlines if urgent, and use grievance/escalation channels.",
+            "solution_marathi": "तहसीलदार कार्यालयाशी फॉलो-अप करा, शैक्षणिक/नोकरीच्या अंतिम मुदती असल्यास त्वरीत सुनावणी विनंती करा, आणि तक्रार/एस्केलेशन मार्ग वापरा.",
+            "frequency": "Medium",
+            "prevention_tips": "Apply well before critical deadlines (e.g., admission/exam dates)."
+        },
+        {
+            "issue_description_en": "Fake/forged certificates dispute",
+            "issue_description_marathi": "खोटे/काल्पनिक प्रमाणपत्रे याबाबत वाद",
+            "solution_en": "Competent authority initiates verification/investigation; if fraud found, legal action and cancellation of certificate occur. Provide authentic evidence proactively.",
+            "solution_marathi": "अधिकृत प्राधिकरण पडताळणी/चौकशी करेल; फसवणूक आढळल्यास प्रमाणपत्र रद्द व कायदेशीर कारवाई केली जाईल. प्रामाणिक पुरावे आधीच सादर करा.",
+            "frequency": "Low",
+            "prevention_tips": "Ensure all documents are genuine and traceable to issuing authorities."
+        },
+        {
+            "issue_description_en": "Confusion between caste certificate and community-specific welfare entitlements",
+            "issue_description_marathi": "जात प्रमाणपत्र व समुदाय-विशिष्ट कल्याण हक्क यातील गोंधळ",
+            "solution_en": "Caste certificate only establishes community membership; verify separate eligibility criteria (income, domicile, NCL) for the specific scheme you intend to use it for.",
+            "solution_marathi": "जात प्रमाणपत्र फक्त समुदाय सदस्यत्व सुनिश्चित करते; आपण त्याकरता वापरणार्या विशिष्ट योजनेच्या वेगळ्या पात्रता निकषांची (उत्पन्न, अधिवास, NCL) पडताळणी करा.",
+            "frequency": "High",
+            "prevention_tips": "Check scheme-specific documents & thresholds before relying on caste certificate alone."
+        }
+    ],
+    "tracking_information": {
+        "online_tracking_available": true,
+        "tracking_url": "[https://aaplesarkar.mahaonline.gov.in/en](https://aaplesarkar.mahaonline.gov.in/en) (Use 'Track Application' or Service Status on portal; district e-services pages also provide status tracking)",
+        "tracking_method": "Application number / Mobile number (OTP) via Aaple Sarkar or district e-service tracking",
+        "sms_updates": true,
+        "email_updates": true,
+        "estimated_response_time": "15 working days (for routine cases); longer if referred to Scrutiny Committee/CVC"
+    },
+    "grievance_redressal": {
+        "complaint_portal": "Aaple Sarkar grievance/contact forms and district collector/Revenue department grievance mechanisms (use district portal contact links)",
+        "complaint_helpline": "DATA_NOT_AVAILABLE (district collectorate / Social Justice department phone numbers published on district portals)",
+        "complaint_email": "DATA_NOT_AVAILABLE (use district/district-collectorate/revenue office emails from official district portals)",
+        "escalation_process": "1) Approach issuing Tahsildar/Nayab Tahsildar with acknowledgement; 2) If unresolved, file First Appeal to designated First Appellate Officer (as per RTS/GR); 3) If still unresolved, file second appeal/escalation to Collector or use Social Justice Dept grievance route; 4) Legal remedy via courts if required.",
+        "ombudsman_details": "DATA_NOT_AVAILABLE (use district collectorate / state-level grievance channels; Social Justice Dept contact points available on department portal)"
+    },
+    "additional_notes": {
+        "recent_changes": "Maharashtra has GRs and circulars that periodically update the process for caste verification and CVC/Scrutiny Committee functioning. The Social Justice & Special Assistance Department maintains Acts/Rules and issues GRs (see Caste Certificate Rules 2012 and subsequent GRs). Districts run special scrutiny drives for ST/SC certificates at times.",
+        "seasonal_variations": "Rush periods: academic admission windows, public employment recruitment notifications and periodic special drives by Social Justice Department — expect delays during these times.",
+        "special_provisions": "SC/ST applicants and certain other vulnerable groups may get speedy processing or special facilitation under district social justice initiatives; Seva Kendras and Aaple Sarkar help for elderly / physically challenged applicants.",
+        "related_documents": [
+            "Non-Creamy Layer (NCL) Certificate — separate for OBC benefits",
+            "Domicile Certificate",
+            "Income Certificate (for schemes where both caste and income conditions apply)",
+            "BPL / Ration Card (for welfare targeting)"
+        ],
+        "useful_links": [
+            "Aaple Sarkar — Caste Certificate service listings (SC/ST/OBC/VJNT/SBC) and online application pages",
+            "Social Justice & Special Assistance Department (Acts, Rules, GRs and documents)",
+            "District Caste Validation / Scrutiny Committee pages (where available) and district portals with forms"
+        ]
+    },
+    "sources": [
+        {
+            "source_name": "Aaple Sarkar Portal - Caste Certificate service listing",
+            "source_url": "[https://aaplesarkar.mahaonline.gov.in/en/Login/Certificate_Documents?ServiceId=1284](https://aaplesarkar.mahaonline.gov.in/en/Login/Certificate_Documents?ServiceId=1284)",
+            "accessed_date": "2025-10-29",
+            "reliability": "Official/High"
+        },
+        {
+            "source_name": "Aaple Sarkar - General services listing (certificate services)",
+            "source_url": "[https://aaplesarkar.mahaonline.gov.in/en](https://aaplesarkar.mahaonline.gov.in/en)",
+            "accessed_date": "2025-10-29",
+            "reliability": "Official/High"
+        },
+        {
+            "source_name": "Social Justice & Special Assistance Department, Maharashtra — Acts & Rules (includes Caste Certificate Rules, GRs)",
+            "source_url": "[https://sjsa.maharashtra.gov.in/en/document-category/acts-rules/](https://sjsa.maharashtra.gov.in/en/document-category/acts-rules/)",
+            "accessed_date": "2025-10-29",
+            "reliability": "Official/High"
+        },
+        {
+            "source_name": "Caste Validity Committee (CVC) documents / sample lists (Nagpur / ATC resource)",
+            "source_url": "[https://www.atcnagpur.com/cvc_documents_en.php](https://www.atcnagpur.com/cvc_documents_en.php)",
+            "accessed_date": "2025-10-29",
+            "reliability": "Official/High (district-level CVC resource)"
+        },
+        {
+            "source_name": "Government Resolution: Guidelines for verification of Caste Certificate — Maharashtra GR archive",
+            "source_url": "[https://archive.org/details/in.gov.maharashtra.gr.20070822150125001](https://archive.org/details/in.gov.maharashtra.gr.20070822150125001)",
+            "accessed_date": "2025-10-29",
+            "reliability": "Official/High"
+        },
+        {
+            "source_name": "Scheduled Tribe Certificate Scrutiny Committee (district reference / example pages)",
+            "source_url": "[https://trti.maharashtra.gov.in/page/aurangabad](https://trti.maharashtra.gov.in/page/aurangabad)",
+            "accessed_date": "2025-10-29",
+            "reliability": "Official/High"
+        },
+        {
+            "source_name": "Service listing example: Maratha Caste Certificate (India Government services directory shows example timelines)",
+            "source_url": "[https://services.india.gov.in/service/detail/maharashtra-maratha-caste-certificate-1](https://services.india.gov.in/service/detail/maharashtra-maratha-caste-certificate-1)",
+            "accessed_date": "2025-10-29",
+            "reliability": "High (central service aggregator citing state service timelines)"
+        },
+        {
+            "source_name": "News reference re: Seva Kendra facilitation charges & Aaple Sarkar outreach (illustrative district example)",
+            "source_url": "[https://timesofindia.indiatimes.com/city/pune/aaple-sarkar-kendras-to-reopen-in-1214-villages-after-two-and-a-half-year-gap/articleshow/124312607.cms](https://timesofindia.indiatimes.com/city/pune/aaple-sarkar-kendras-to-reopen-in-1214-villages-after-two-and-a-half-year-gap/articleshow/124312607.cms)",
+            "accessed_date": "2025-10-29",
+            "reliability": "High (reputable news; used for context on facilitation charges and Seva Kendra operations)"
+        }
+    ]
+}

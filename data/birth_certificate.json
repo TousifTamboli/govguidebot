@@ -1,0 +1,473 @@
+{
+  "document_info": {
+    "document_name_en": "Birth Certificate",
+    "document_name_marathi": "जन्म प्रमाणपत्र",
+    "category": "Vital Records / Civil Registration",
+    "issuing_authority_en": "Registrar of Births and Deaths, Municipal Corporation",
+    "issuing_authority_marathi": "जन्म-मृत्यू नोंदणी अधिकारी, महानगरपालिका",
+    "issuing_department_en": "Public Health Department / Urban Local Body",
+    "issuing_department_marathi": "सार्वजनिक आरोग्य विभाग / शहरी स्थानिक स्वराज्य संस्था",
+    "legal_basis": [
+      {
+        "act_en": "Registration of Births and Deaths Act, 1969",
+        "act_marathi": "जन्म-मृत्यू नोंदणी अधिनियम, 1969"
+      },
+      {
+        "act_en": "Maharashtra Registration of Births and Deaths Rules, 2000",
+        "act_marathi": "महाराष्ट्र जन्म-मृत्यू नोंदणी नियम, 2000"
+      }
+    ],
+    "purpose_en": [
+      "To provide official proof of the date and place of birth.",
+      "Required for school admissions, passport, Aadhaar, PAN, driving license.",
+      "Mandatory for government schemes and legal inheritance claims."
+    ],
+    "purpose_marathi": [
+      "जन्माची तारीख व स्थळाचा अधिकृत पुरावा म्हणून.",
+      "शाळा प्रवेश, पासपोर्ट, आधार, पॅन, वाहन परवाना यासाठी आवश्यक.",
+      "शासकीय योजना व कायदेशीर वारसाहक्कासाठी अनिवार्य."
+    ],
+    "validity_period": "Lifetime (Permanent Document)",
+    "processing_time_normal": "1 to 7 working days (if record already registered)",
+    "processing_time_late": "7 to 30 working days depending on verification",
+    "application_modes": [
+      "Online",
+      "Offline",
+      "Hospital Auto-Reporting System"
+    ],
+    "official_portal": "https://crsorgi.gov.in",
+    "state_portal": "https://aaplesarkar.mahaonline.gov.in",
+    "digital_certificate_features": [
+      "QR Code Verification",
+      "Digitally Signed Certificate",
+      "DigiLocker Integration",
+      "Aadhaar Seeding (optional)"
+    ],
+    "last_updated": "2025-01-15"
+  },
+  "eligibility": {
+    "basic_eligibility_en": "Any individual born within Maharashtra territory is eligible to obtain a Birth Certificate.",
+    "basic_eligibility_marathi": "महाराष्ट्र राज्याच्या हद्दीत जन्म झालेल्या कोणत्याही व्यक्तीस जन्म प्रमाणपत्र मिळण्यास पात्रता आहे.",
+    "applicant_type_en": [
+      "Parents of the child",
+      "Legal Guardian",
+      "Adoptive Parents",
+      "Orphanage / Child Welfare Institution",
+      "The individual themselves (if adult)"
+    ],
+    "residence_requirement_en": "No mandatory residence duration required. Eligibility depends on the place of birth.",
+    "residence_requirement_marathi": "वास्तव्याची किमान अट नाही. पात्रता जन्मस्थळावर आधारित असते.",
+    "special_eligibility_notes": [
+      "For home births, certification by ANM / Nurse / Midwife / Anganwadi worker is required.",
+      "For delayed registration, judicial or executive authority approval is required."
+    ]
+  },
+  "required_documents": [
+    {
+      "scenario": "Hospital Birth (Institutional Delivery)",
+      "documents_en": [
+        "Hospital Birth Report or Form-1 Record issued by hospital.",
+        "Mother or Father's Aadhaar Card.",
+        "Proof of Address at the time of birth (Ration Card / Electricity Bill / House Agreement).",
+        "Discharge Summary (optional but recommended)."
+      ],
+      "documents_marathi": [
+        "रुग्णालयात दिलेले जन्म नोंद प्रमाणपत्र / फॉर्म-1.",
+        "आई किंवा वडिलांचे आधार कार्ड.",
+        "जन्मावेळीचा पत्त्याचा पुरावा (रation card / वीज बिल / घर करारनामा).",
+        "डिस्चार्ज स्लिप (वैकल्पिक, पण उपयुक्त)."
+      ]
+    },
+    {
+      "scenario": "Home Birth",
+      "documents_en": [
+        "Certificate by ANM / Anganwadi Worker / Registered Midwife.",
+        "Two Witness Identity Proofs with signatures.",
+        "Self Affidavit declaring place and date of birth.",
+        "Mother's Address Proof (same address where birth occurred)."
+      ],
+      "documents_marathi": [
+        "एएनएम / अंगणवाडी कर्मचारी / नोंदणीकृत दाई यांचे प्रमाणपत्र.",
+        "दोन साक्षीदारांचे फोटो ओळखपत्र व स्वाक्षरी.",
+        "जन्मस्थळ व जन्मतारीख नमूद केलेले स्वघोषणा शपथपत्र.",
+        "आईचा पत्त्याचा पुरावा (जिथे प्रसूती झाली त्याच पत्त्याचा)."
+      ]
+    },
+    {
+      "scenario": "Late Registration (21 days to 1 year)",
+      "documents_en": [
+        "Hospital Record / ANM Certificate / School Record (any one).",
+        "Written explanation for delay.",
+        "Late Registration Fee payment receipt."
+      ],
+      "documents_marathi": [
+        "रुग्णालय नोंद / एएनएम प्रमाणपत्र / शाळा नोंद (कोणतेही एक).",
+        "उशीरा नोंदणीचे कारण देणारे अर्ज.",
+        "विलंब शुल्काची पावती."
+      ]
+    },
+    {
+      "scenario": "Delayed Registration (After 1 year)",
+      "documents_en": [
+        "Judicial or Executive Magistrate Order.",
+        "Affidavit stating full details of birth circumstances.",
+        "Identity & Address Proof of parents/guardian.",
+        "Any supporting evidence (School TC / Vaccination Card / Hospital Slip)."
+      ],
+      "documents_marathi": [
+        "कार्यकारी/न्याय दंडाधिकाऱ्यांचा आदेश.",
+        "जन्म परिस्थिती नमूद केलेले शपथपत्र.",
+        "पालक/संरक्षक यांचे ओळख व पत्त्याचा पुरावा.",
+        "पूरक पुरावे (शाळा सोडल्याचा दाखला / लसीकरण कार्ड / दवाखाना बिल)."
+      ]
+    }
+  ],
+  "application_process_online": {
+    "available": true,
+    "primary_portal": "https://crsorgi.gov.in",
+    "state_portal": "https://aaplesarkar.mahaonline.gov.in",
+    "steps": [
+      {
+        "step_number": 1,
+        "step_title_en": "Access CRS Portal",
+        "step_title_marathi": "CRS पोर्टल उघडा",
+        "description_en": "Visit https://crsorgi.gov.in and create login / use existing credentials.",
+        "description_marathi": "https://crsorgi.gov.in येथे जाऊन नवीन लॉगिन तयार करा किंवा विद्यमान खाते वापरा.",
+        "estimated_time": "5 minutes"
+      },
+      {
+        "step_number": 2,
+        "step_title_en": "Search Birth Record",
+        "step_title_marathi": "जन्म नोंद शोधा",
+        "description_en": "Enter child's date of birth, place of birth, and parent's name.",
+        "description_marathi": "मुलाची जन्मतारीख, जन्मस्थळ आणि पालकांची नावे टाइप करून नोंद शोधा.",
+        "estimated_time": "2 minutes"
+      },
+      {
+        "step_number": 3,
+        "step_title_en": "Apply for Certificate",
+        "step_title_marathi": "प्रमाणपत्रासाठी अर्ज करा",
+        "description_en": "If record is found, proceed to application request and upload necessary documents.",
+        "description_marathi": "नोंद सापडल्यास अर्ज सबमिट करा आणि आवश्यक कागदपत्रे अपलोड करा.",
+        "estimated_time": "10 minutes"
+      },
+      {
+        "step_number": 4,
+        "step_title_en": "Download Digital Certificate",
+        "step_title_marathi": "डिजिटल प्रमाणपत्र डाउनलोड करा",
+        "description_en": "Once approved, download certificate with Digital Signature and QR Code.",
+        "description_marathi": "मंजुरीनंतर, डिजिटल स्वाक्षरी व QR कोड असलेले प्रमाणपत्र डाउनलोड करा.",
+        "estimated_time": "1 minute"
+      }
+    ],
+    "file_format": "PDF (Digitally Signed & QR Verified)",
+    "max_upload_size": "2 MB per document",
+    "digital_verification_available": true
+  },
+  "application_process_offline": {
+    "available": true,
+    "service_location_en": "Local Municipal Corporation – Birth & Death Registration Section",
+    "service_location_marathi": "स्थानिक महानगरपालिका – जन्म-मृत्यू नोंदणी विभाग",
+    "form_name_en": "Form 1 (Birth Reporting Form)",
+    "form_name_marathi": "फॉर्म 1 (जन्म नोंद अहवाल फॉर्म)",
+    "where_to_get_form": [
+      "Municipal Ward Office",
+      "Hospital (in case of institutional birth)",
+      "Download via Municipal Website"
+    ],
+    "stepwise_process": [
+      {
+        "step_number": 1,
+        "step_title_en": "Visit Ward Office",
+        "step_title_marathi": "वॉर्ड कार्यालयात भेट द्या",
+        "description_en": "Go to the Birth & Death Registration counter in the respective ward jurisdiction.",
+        "description_marathi": "संबंधित वॉर्डच्या जन्म-मृत्यू नोंदणी काउंटरवर जा.",
+        "tips_en": "Carry at least one identity proof of parent.",
+        "tips_marathi": "किमान एका पालकाचे ओळखपत्र सोबत ठेवा."
+      },
+      {
+        "step_number": 2,
+        "step_title_en": "Collect or Submit Form 1",
+        "step_title_marathi": "फॉर्म 1 मिळवा किंवा सबमिट करा",
+        "description_en": "If hospital has not submitted, fill the Form 1 manually and attach documents.",
+        "description_marathi": "हॉस्पिटलने नोंद पाठवली नसेल तर फॉर्म 1 भरून आवश्यक कागदपत्रे जोडा."
+      },
+      {
+        "step_number": 3,
+        "step_title_en": "Verification of Birth Record",
+        "step_title_marathi": "जन्म नोंद तपासणी",
+        "description_en": "Registrar cross-checks hospital or home-birth reported records.",
+        "description_marathi": "नोंदणी अधिकारी हॉस्पिटल/घर प्रसूती नोंदी पडताळतात."
+      },
+      {
+        "step_number": 4,
+        "step_title_en": "Entry in Municipal Birth Register",
+        "step_title_marathi": "महानगरपालिका जन्म नोंदणी मध्ये नोंद",
+        "description_en": "The birth details are entered in digital CRS + physical register.",
+        "description_marathi": "जन्म तपशील CRS डिजिटल प्रणाली + शारीरिक नोंदवही दोन्हीत नोंदवले जातात."
+      },
+      {
+        "step_number": 5,
+        "step_title_en": "Issue of Birth Certificate",
+        "step_title_marathi": "जन्म प्रमाणपत्र जारी",
+        "description_en": "Certificate issued same day or within 7 working days depending on verification.",
+        "description_marathi": "तपासणीनुसार प्रमाणपत्र तत्काळ किंवा 7 कार्यदिवसात दिले जाते."
+      }
+    ]
+  },
+  "fees_structure": [
+    {
+      "category": "Registration within 21 days",
+      "fee_amount": 0,
+      "currency": "INR",
+      "details_en": "No fee if registration submitted within 21 days.",
+      "details_marathi": "21 दिवसांच्या आत अर्ज केल्यास कोणतेही शुल्क नाही.",
+      "payment_modes": [
+        "N/A"
+      ]
+    },
+    {
+      "category": "Late Registration (21 days - 1 year)",
+      "fee_amount_range": "₹5 to ₹50",
+      "currency": "INR",
+      "details_en": "Late fee varies by municipal body. Written justification required.",
+      "details_marathi": "विलंब शुल्क संस्था प्रमाणे बदलते. लेखी कारण आवश्यक.",
+      "payment_modes": [
+        "Cash at Ward Office",
+        "Online Payment (Pune/Mumbai where enabled)"
+      ]
+    },
+    {
+      "category": "Delayed Registration (After 1 year)",
+      "fee_amount_additional": "₹50 to ₹300 + Magistrate Affidavit Cost",
+      "currency": "INR",
+      "details_en": "Executive Magistrate Order required + Affidavit (Stamp Paper ₹100/₹500).",
+      "details_marathi": "कार्यकारी दंडाधिकाऱ्याचा आदेश + शपथपत्र (₹100/₹500 स्टॅम्प) आवश्यक."
+    },
+    {
+      "category": "Name Inclusion/Correction",
+      "fee_amount": "₹20 to ₹200",
+      "currency": "INR",
+      "details_en": "Name can be added later; fee depends on timing.",
+      "details_marathi": "नाव नंतर समाविष्ट करता येते; शुल्क वेळेनुसार बदलते."
+    },
+    {
+      "category": "Duplicate Birth Certificate",
+      "fee_amount": "₹25 to ₹200",
+      "currency": "INR",
+      "details_en": "Fee depends on municipal corporation record retrieval charges.",
+      "details_marathi": "शुल्क जन्म नोंद शोधण्यावर आधारित असते."
+    }
+  ],
+  "district_variations": [
+    {
+      "district_name": "Pune (PMC)",
+      "process_variation_en": "Fully online download available for all births registered post-1997.",
+      "process_variation_marathi": "1997 नंतरच्या जन्म नोंदी ऑनलाईन डाउनलोड करता येतात.",
+      "notes": "Birth records searchable by mother’s name + DOB."
+    },
+    {
+      "district_name": "Mumbai (BMC)",
+      "process_variation_en": "Birth certificates issued through 24 Ward Offices; old records require manual search.",
+      "process_variation_marathi": "२४ वॉर्ड कार्यालयातून प्रमाणपत्र; जुनी नोंदी हस्तलिखित रजिस्टरमधून शोधाव्या लागतात.",
+      "notes": "Digitization cutoff varies ward-to-ward."
+    },
+    {
+      "district_name": "Thane",
+      "process_variation_en": "Online search available, but issuance requires ward-level verification.",
+      "process_variation_marathi": "ऑनलाईन शोध उपलब्ध, पण प्रमाणपत्र जारी करण्यासाठी वॉर्ड पडताळणी आवश्यक."
+    },
+    {
+      "district_name": "Nagpur",
+      "process_variation_en": "Delayed registrations commonly require magistrate affidavit.",
+      "process_variation_marathi": "उशीरा नोंदणीसाठी न्यायालय शपथपत्र प्रचलित.",
+      "notes": "Home-birth cases require ANM verification report."
+    },
+    {
+      "district_name": "Nashik",
+      "process_variation_en": "Older paper registers (pre-2001) stored in archival cell; retrieval can take weeks.",
+      "process_variation_marathi": "जुनी नोंदणी (2001 पूर्वी) संग्रह कक्षात; मिळण्यासाठी काही आठवडे लागू शकतात."
+    }
+  ],
+  "offices": [
+    {
+      "district": "Pune",
+      "office_name": "PMC Birth & Death Registration Department",
+      "address": "PMC Main Building, Shivajinagar, Pune - 411005",
+      "contact_number": "020-25501000",
+      "email": "health@pmc.gov.in",
+      "working_hours": "10:00 AM - 5:00 PM (Mon-Fri)",
+      "weekly_off": "Saturday, Sunday",
+      "best_time_to_visit": "Morning hours (10 AM - 12 PM)"
+    },
+    {
+      "district": "Mumbai",
+      "office_name": "Municipal Corporation of Greater Mumbai (BMC) – Birth & Death Department",
+      "address": "Head Office, Fort, Mumbai - 400001",
+      "contact_number": "022-22620351",
+      "email": "birthdeathoffice@mcgm.gov.in",
+      "working_hours": "10:00 AM - 5:30 PM",
+      "weekly_off": "Sunday"
+    },
+    {
+      "district": "Thane",
+      "office_name": "TMC Birth & Death Register Office",
+      "address": "TMC HQ, Pachpakhadi, Thane West - 400602",
+      "contact_number": "022-25335000"
+    }
+  ],
+  "faqs": [
+    {
+      "question_en": "Is Birth Certificate mandatory?",
+      "question_marathi": "जन्म प्रमाणपत्र अनिवार्य आहे का?",
+      "answer_en": "Yes. It is the primary legal proof of date and place of birth.",
+      "answer_marathi": "होय. जन्माची तारीख आणि स्थळ याचा हा मुख्य कायदेशीर पुरावा आहे.",
+      "category": "General"
+    },
+    {
+      "question_en": "Can the child’s name be added later?",
+      "question_marathi": "मुलाचे नाव नंतर जोडता येते का?",
+      "answer_en": "Yes. Name can be added anytime with identity proof and parent's declaration.",
+      "answer_marathi": "होय. पालकांच्या घोषणेसह आणि ओळख पुराव्याने नाव नंतर जोडता येते.",
+      "category": "Name Inclusion"
+    },
+    {
+      "question_en": "Can a single parent register birth?",
+      "question_marathi": "एकट्या पालकाने जन्म नोंदणी करता येते का?",
+      "answer_en": "Yes. The certificate can be issued with only mother's or father's name.",
+      "answer_marathi": "होय. प्रमाणपत्र आई किंवा वडिलांच्या एका नावासही जारी केले जाऊ शकते.",
+      "category": "Parent Details"
+    },
+    {
+      "question_en": "How to correct spelling in child's name?",
+      "question_marathi": "मुलाच्या नावाची स्पेलिंग कशी दुरुस्त करावी?",
+      "answer_en": "Submit correction request with school/ID proof and application form.",
+      "answer_marathi": "शाळा/ओळख पुरावा आणि अर्जासह दुरुस्ती अर्ज सादर करावा.",
+      "category": "Correction"
+    },
+    {
+      "question_en": "How to get duplicate birth certificate?",
+      "question_marathi": "जन्म प्रमाणपत्र हरवल्यास डुप्लिकेट कसे मिळेल?",
+      "answer_en": "Apply online via CRS or visit Ward Office with ID proof.",
+      "answer_marathi": "CRS पोर्टलद्वारे ऑनलाईन किंवा वॉर्ड कार्यालयात ओळखपुरावा घेऊन अर्ज करावा.",
+      "category": "Duplicate Certificate"
+    },
+    {
+      "question_en": "Can birth certificate be downloaded online?",
+      "question_marathi": "जन्म प्रमाणपत्र ऑनलाईन डाउनलोड करता येते का?",
+      "answer_en": "Yes, if record is digitized in CRS/Municipal Database.",
+      "answer_marathi": "होय, नोंद CRS/महानगरपालिका डेटाबेसमध्ये उपलब्ध असल्यास ऑनलाईन डाउनलोड करता येते.",
+      "category": "Digital Certificate"
+    },
+    {
+      "question_en": "Birth was at home and no hospital record exists. What to do?",
+      "question_marathi": "घरात प्रसूती झाली आणि हॉस्पिटल रेकॉर्ड नाही. काय करावे?",
+      "answer_en": "Submit ANM/Midwife certificate + witness affidavits.",
+      "answer_marathi": "ANM/दाईचे प्रमाणपत्र + साक्षीदारांचे शपथपत्र देणे आवश्यक.",
+      "category": "Home Birth"
+    },
+    {
+      "question_en": "What if birth was not registered within 1 year?",
+      "question_marathi": "१ वर्षाच्या आत जन्म नोंदणी झाली नाही तर?",
+      "answer_en": "Registration must be done through Magistrate order + affidavit.",
+      "answer_marathi": "न्याय/कार्यकारी दंडाधिकारी आदेश आणि शपथपत्र आवश्यक.",
+      "category": "Delayed Registration"
+    },
+    {
+      "question_en": "Is Aadhaar mandatory for birth registration?",
+      "question_marathi": "जन्म नोंदणीसाठी आधार अनिवार्य आहे का?",
+      "answer_en": "No, Aadhaar of parents is optional but recommended for digital linking.",
+      "answer_marathi": "नाही, पालकांचा आधार ऐच्छिक आहे पण डिजिटल लिंकिंगसाठी उपयुक्त.",
+      "category": "Aadhaar"
+    }
+  ],
+  "common_issues": [
+    {
+      "issue_description_en": "Hospital did not forward birth record to Municipal Registrar.",
+      "issue_description_marathi": "रुग्णालयाने जन्म नोंदणी वॉर्ड कार्यालयात पाठवली नाही.",
+      "solution_en": "Request hospital to submit Form-1 immediately; follow up with registrar.",
+      "solution_marathi": "हॉस्पिटलकडून फॉर्म-1 त्वरीत पाठवण्याची मागणी करा; नोंदणी अधिकाऱ्याशी संपर्क ठेवा.",
+      "frequency": "High",
+      "prevention_tips_en": "Ask hospital for Birth Reporting Number immediately after delivery.",
+      "prevention_tips_marathi": "प्रसूतीनंतर हॉस्पिटलकडून जन्म नोंद क्रमांक घ्या."
+    },
+    {
+      "issue_description_en": "Name mismatch in parents' documents.",
+      "issue_description_marathi": "पालकांच्या कागदपत्रांमध्ये नावाची विसंगती.",
+      "solution_en": "Submit joint affidavit + supporting identity documents.",
+      "solution_marathi": "संयुक्त शपथपत्र + ओळख पुरावे जमा करावेत.",
+      "frequency": "Medium"
+    },
+    {
+      "issue_description_en": "Old birth record not available online.",
+      "issue_description_marathi": "जुनी जन्म नोंद ऑनलाईन उपलब्ध नाही.",
+      "solution_en": "Apply manual register search request at ward office.",
+      "solution_marathi": "वॉर्ड कार्यालयात रजिस्टर शोध प्रक्रिया करावी.",
+      "frequency": "High"
+    },
+    {
+      "issue_description_en": "Home birth without ANM report.",
+      "issue_description_marathi": "घरातील प्रसूतीसाठी एएनएम अहवाल उपलब्ध नाही.",
+      "solution_en": "Submit two witness affidavits + local officer verification.",
+      "solution_marathi": "दोन साक्षीदारांचे शपथपत्र + स्थानिक अधिकारी प्रत्यक्ष पडताळणी."
+    }
+  ],
+  "tracking_information": {
+    "online_tracking_available": true,
+    "tracking_portal": "https://crsorgi.gov.in",
+    "tracking_method_en": "Track using Birth Registration Number or Search by Name + DOB.",
+    "tracking_method_marathi": "जन्म नोंद क्रमांक किंवा नाव + जन्मतारीख वापरून शोधता येते.",
+    "sms_updates": true,
+    "email_updates": true,
+    "estimated_response_time": "3 to 10 working days"
+  },
+  "grievance_redressal": {
+    "complaint_portal": "https://aaplesarkar.mahaonline.gov.in/en/Grievance",
+    "health_department_helpline": "104",
+    "municipal_corporation_contact": "Local Ward Health Officer",
+    "escalation_steps_en": [
+      "1. Ward Registrar",
+      "2. Deputy Health Officer",
+      "3. Municipal Health Officer",
+      "4. State Registrar (Births & Deaths), Mantralaya"
+    ],
+    "escalation_steps_marathi": [
+      "१. वॉर्ड जन्म-मृत्यू नोंदणी अधिकारी",
+      "२. उप आरोग्य अधिकारी",
+      "३. मुख्य आरोग्य अधिकारी (महानगरपालिका)",
+      "४. राज्य जन्म-मृत्यू नोंदणी अधिकारी, मंत्रालय"
+    ]
+  },
+  "additional_notes": {
+    "recent_updates_en": [
+      "QR Code based Digital Birth Certificates being issued by municipal bodies.",
+      "DigiLocker integration enabled for certificates issued after 2018."
+    ],
+    "recent_updates_marathi": [
+      "QR कोड आधारित डिजिटल जन्म प्रमाणपत्राची अंमलबजावणी सुरु.",
+      "2018 नंतरच्या प्रमाणपत्रांसाठी डिजीलॉकर लिंक उपलब्ध."
+    ],
+    "important_tip_en": "Keep at least 3 certified copies for future use.",
+    "important_tip_marathi": "भविष्यासाठी किमान ३ प्रमाणित प्रती सोबत ठेवा."
+  },
+  "sources": [
+    {
+      "source_name": "CRS Portal (Registrar General of India)",
+      "source_url": "https://crsorgi.gov.in",
+      "accessed_date": "2025-01-15",
+      "reliability": "Official"
+    },
+    {
+      "source_name": "Pune Municipal Corporation Birth & Death Department",
+      "source_url": "https://pmc.gov.in",
+      "accessed_date": "2025-01-15",
+      "reliability": "Official"
+    },
+    {
+      "source_name": "MCGM Birth & Death Registration (Mumbai)",
+      "source_url": "https://portal.mcgm.gov.in",
+      "accessed_date": "2025-01-15",
+      "reliability": "Official"
+    }
+  ]
+}

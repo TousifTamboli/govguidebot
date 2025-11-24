@@ -1,0 +1,625 @@
+{
+    "document_info": {
+        "document_name_en": "Income Certificate",
+        "document_name_marathi": "उत्पन्न प्रमाणपत्र",
+        "document_name_hindi": "आय प्रमाण पत्र",
+        "category": "Revenue",
+        "issuing_authority": "Tehsildar / Nayab Tahsildar (Taluka/Tehsil Revenue Office)",
+        "issuing_department": "Revenue Department, Government of Maharashtra",
+        "legal_basis": "Provided as a notified service under the Maharashtra Right to Public Services Act, 2015; issued by the Revenue Department under State administrative rules (Revenue Department procedures).",
+        "purpose": "To certify the annual family/household income of the applicant for purposes such as reservation (EWS), housing schemes, educational scholarships/admissions, government welfare schemes, fee concessions, and loans or other official uses.",
+        "validity_period": "Varies by purpose — commonly 1 year for many schemes; some usages accept up to 3 years if specifically stated. (Many departments/institutions require certificate issued within 1 year.)",
+        "processing_time_normal": "15 working days (as per Right to Public Services (RTS) listing for Income Certificate).",
+        "processing_time_tatkal": "DATA_NOT_AVAILABLE",
+        "application_modes": [
+            "Online",
+            "Offline",
+            "Both"
+        ],
+        "official_portal": "https://aaplesarkar.mahaonline.gov.in/en",
+        "helpline_number": "DATA_NOT_AVAILABLE",
+        "last_updated": "2025-01-XX"
+    },
+    "eligibility": {
+        "age_requirement": "No minimum age for family income certificate; dependent students/minors can apply through guardian — age not a formal limiting criterion.",
+        "residence_requirement": "No universal fixed years mandated in Revenue rules — domicile/residence proof of place within Maharashtra / taluka usually required. (Specific schemes may require a minimum period of residence.)",
+        "income_limit": "Income limits depend on the scheme that uses the certificate. Common references used in Maharashtra (state / housing / EWS definitions):\n- EWS: Typically up to ₹6,00,000 p.a. for major metros (Mumbai/Pune/Nagpur metro regions) and up to ₹4,50,000 p.a. in many other areas in earlier state notifications; central EWS threshold often ₹8,00,000 p.a. (use depends on scheme). \n- LIG: Limits differ by scheme; some state housing notifications set LIG up to ₹7.5–9.0 lakh p.a. (region dependent).\n- MIG: Often defined up to ₹12,00,000 p.a. in recent MH guidelines for some housing schemes.\nNOTE: These slabs are policy/scheme-specific (housing, PMAY, state housing policy). The Income Certificate itself states annual family income and does not by itself create EWS/LIG/MIG classification — the consuming scheme applies thresholds.",
+        "domicile_requirement": true,
+        "other_criteria": [
+            "Family/household definition — income is generally computed as combined income of all family members (consuming authority defines family composition).",
+            "Applicant must provide documentary proof of income or a self-declaration depending on local Talathi/Tahsildar requirements.",
+            "If applicant is employed, salary slips / Form 16 / ITR may be required; if agriculturist, khasra/landholding proof or agriculturist certificate may be used."
+        ],
+        "who_can_apply": "Any resident of Maharashtra seeking an official certificate of family/household income — individuals, parents/guardians (on behalf of minors), heads of households.",
+        "exclusions": [
+            "Persons unable to provide required residence or identity proof for the taluka/district in question (unless the scheme allows alternate proof).",
+            "Applicants whose income cannot be verified by the taluka/revenue authorities and who refuse to provide documentary proof may be refused until proof is produced."
+        ]
+    },
+    "required_documents": [
+        {
+            "doc_name_en": "Aadhaar Card",
+            "doc_name_marathi": "आधार कार्ड",
+            "is_mandatory": true,
+            "alternatives": [
+                "Voter ID",
+                "Passport",
+                "Driving Licence"
+            ],
+            "specifications": "Original + self-attested copy; both sides where applicable; must match applicant details.",
+            "number_of_copies": 1,
+            "notes": "Used as identity and address proof where Aadhaar contains address. If Aadhaar not available, alternate government ID with address accepted as per local office."
+        },
+        {
+            "doc_name_en": "Residence Proof (if different from Aadhaar)",
+            "doc_name_marathi": "निवास दाखला",
+            "is_mandatory": false,
+            "alternatives": [
+                "Ration card",
+                "Electricity bill (recent)",
+                "Rent agreement",
+                "Bank passbook with address"
+            ],
+            "specifications": "Original + copy; recent (within 3 months) where applicable.",
+            "number_of_copies": 1,
+            "notes": "Taluka office may accept local proof like Gramsevak certificate for village residents."
+        },
+        {
+            "doc_name_en": "Income Proof (choose as applicable)",
+            "doc_name_marathi": "उत्पन्नाचे पुरावे",
+            "is_mandatory": true,
+            "alternatives": [
+                "Salary slips (last 3 months)",
+                "Form 16 / Income Tax Returns (last assessment year)",
+                "Bank statements",
+                "Pension slip",
+                "Agricultural income proof (land records / khasra, farmer certificate)",
+                "Proof of other income (rental, business profits)"
+            ],
+            "specifications": "Originals for verification + self-attested photocopies. ITR/Form 16 preferred for salaried/business applicants.",
+            "number_of_copies": 1,
+            "notes": "If documentary proof is not available (e.g., informal sector), a sworn affidavit / self-declaration may be accepted temporarily but revenue officer may insist on supporting evidence."
+        },
+        {
+            "doc_name_en": "Family/Household Identity Proof (if family members included)",
+            "doc_name_marathi": "कुटुंब / घरगुती ओळख पु��ाव",
+            "is_mandatory": false,
+            "alternatives": [
+                "Ration Card (family list)",
+                "Family member Aadhaar copies"
+            ],
+            "specifications": "Copies of family members' identity to establish household composition.",
+            "number_of_copies": 1,
+            "notes": "Needed when computing combined family income for EWS/LIG classification."
+        },
+        {
+            "doc_name_en": "Application Form",
+            "doc_name_marathi": "अर्ज फॉर्म",
+            "is_mandatory": true,
+            "alternatives": [
+                "Downloaded form from Aaple Sarkar",
+                "Taluka office standard form"
+            ],
+            "specifications": "Filled and signed; attach proofs.",
+            "number_of_copies": 1,
+            "notes": "Form template may vary slightly by district (standardized form available on many district websites and Aaple Sarkar)."
+        },
+        {
+            "doc_name_en": "Passport-size photograph",
+            "doc_name_marathi": "पासपोर्ट आकाराचा फोटो",
+            "is_mandatory": false,
+            "alternatives": [],
+            "specifications": "Recent photograph (if required by local office).",
+            "number_of_copies": 1,
+            "notes": "Not always required for revenue-issued certificates but often asked for record."
+        }
+    ],
+    "application_process_online": {
+        "available": true,
+        "portal_name": "Aaple Sarkar",
+        "portal_url": "https://aaplesarkar.mahaonline.gov.in/en",
+        "steps": [
+            {
+                "step_number": 1,
+                "step_title_en": "Registration / Login",
+                "step_title_marathi": "नोंदणी / लॉगिन",
+                "step_description_en": "Create an account on Aaple Sarkar or login using existing credentials / government ID. Some districts allow guest application with limited features.",
+                "step_description_marathi": "Aaple Sarkar वर खाते तयार करा किंवा विद्यमान क्रेडेन्शिअल्स वापरून लॉगिन करा. काही जिल्ह्यांना मर्यादित सुविधांसह अभ्यागत अर्ज करण्याची परवानगी आहे.",
+                "tips": "Use a mobile number that you will keep — OTPs and status updates are sent to this number.",
+                "common_errors": "Using a different name/spelling than on Aadhaar; mismatched address fields.",
+                "estimated_time": "5-10 minutes"
+            },
+            {
+                "step_number": 2,
+                "step_title_en": "Select Service: Income Certificate",
+                "step_title_marathi": "सेवा निवडा: उत्पन्न प्रमाणपत्र",
+                "step_description_en": "From Revenue department services choose 'Income Certificate (Income Certificate / मिळकतीचे प्रमाणपत्र)'.",
+                "step_description_marathi": "महसूल विभागातील सेवांमधून 'मिळकतीचे प्रमाणपत्र' निवडा.",
+                "tips": "Read the checklist on the portal before starting the form.",
+                "common_errors": "Selecting wrong certificate type (e.g., Solvency or Domicile instead).",
+                "estimated_time": "2-3 minutes"
+            },
+            {
+                "step_number": 3,
+                "step_title_en": "Fill Application Form & Family Details",
+                "step_title_marathi": "अर्ज भरा आणि कुटुंब तपशील भरा",
+                "step_description_en": "Enter applicant details, family composition, annual incomes of family members as required, and declare total annual family income.",
+                "step_description_marathi": "अर्जदार तपशील, कुटुंब रचना, कुटुंब सदस्यांचे वार्षिक उत्पन्न भरा आणि एकूण वार्षिक उत्पन्न जाहीर करा.",
+                "tips": "Keep ITR/Form16/bank statement figures ready to avoid mismatch.",
+                "common_errors": "Typographical errors in income figures; forgetting to include all family members.",
+                "estimated_time": "10-20 minutes"
+            },
+            {
+                "step_number": 4,
+                "step_title_en": "Upload Documents",
+                "step_title_marathi": "कागदपत्रे अपलोड करा",
+                "step_description_en": "Upload identity, residence, and income proofs in permitted formats (PDF/JPG).",
+                "step_description_marathi": "परवान्याप्राप्त फॉरमॅटमध्ये (PDF/JPG) ओळख, निवास आणि उत्पन्न पुरावे अपलोड करा.",
+                "tips": "Scan pages at legible resolution; keep file sizes within portal limits.",
+                "common_errors": "Uploading blurred or incomplete pages; exceeding file size limits.",
+                "estimated_time": "5-15 minutes"
+            },
+            {
+                "step_number": 5,
+                "step_title_en": "Payment (if applicable) & Submit",
+                "step_title_marathi": "पैसे भरणे (लागू असल्यास) आणि सबमिट करा",
+                "step_description_en": "Pay applicable portal/service fees (if required) via the portal payment gateway and submit the application.",
+                "step_description_marathi": "पोर्टलद्वारे लागू असलेली फी भरा आणि अर्ज सबमिट करा.",
+                "tips": "Save transaction receipt / screenshot.",
+                "common_errors": "Payment failed but application treated as incomplete; not saving payment receipt.",
+                "estimated_time": "2-5 minutes"
+            },
+            {
+                "step_number": 6,
+                "step_title_en": "Verification by Revenue Office",
+                "step_title_marathi": "महसूल कार्यालयाद्वारे प्रमाणीकरण",
+                "step_description_en": "Talathi/Tahsildar or Nayab Tahsildar will verify the application and documents; field verification may be done when necessary.",
+                "step_description_marathi": "तालाठी/तहसीलदार किंवा ना. तहसिलदार अर्ज व कागदपत्रे तपासतील; आवश्यक असल्यास फील्ड तपासणी केली जाऊ शकते.",
+                "tips": "If requested for additional documents, respond quickly to avoid delays.",
+                "common_errors": "Ignoring requests for additional proof leading to rejection.",
+                "estimated_time": "Varies; up to RTS timeline (15 working days)"
+            },
+            {
+                "step_number": 7,
+                "step_title_en": "Certificate Issuance / Download",
+                "step_title_marathi": "प्रमाणपत्र देणे / डाउनलोड करा",
+                "step_description_en": "On approval the certificate is signed by the authorized revenue officer and made available for download from the portal or issued physically.",
+                "step_description_marathi": "मान्यतेनंतर प्रमाणपत्र अधिकृत महसूल अधिकारी स्वाक्षरित करतात आणि पोर्टलवरून डाउनलोड करण्यासाठी दिले जाते किंवा प्रत्यक्ष स्वरूपात दिले जाते.",
+                "tips": "Download and keep multiple copies (PDF) and a printed copy for offline use.",
+                "common_errors": "Not checking certificate details (name, income figure) and not requesting correction in time.",
+                "estimated_time": "Instant download after approval"
+            }
+        ],
+        "documents_upload_format": "PDF/JPG (follow portal limits); individual file size limits vary by portal (commonly 2-5 MB).",
+        "payment_gateway": "Netbanking / Debit/Credit Card / UPI (portal dependent). Additional charges may apply at Seva Kendra counters."
+    },
+    "application_process_offline": {
+        "available": true,
+        "form_number": "DATA_NOT_AVAILABLE (standard district/taluka application form — many districts provide a standard income-certificate form)",
+        "where_to_get_form": "Taluka / Tehsil office (Tahsildar office) or district revenue office; many districts provide PDF form on district website.",
+        "form_download_url": "Example: https://chhatrapatisambhajinagar.maharashtra.gov.in/en/form/income-certificate-application/ (district forms vary).",
+        "submission_office": "Tehsil/Taluka Office (Tahsildar / Nayab Tahsildar)",
+        "steps": [
+            {
+                "step_number": 1,
+                "step_title_en": "Collect Form",
+                "step_title_marathi": "फॉर्म मिळवा",
+                "step_description_en": "Obtain the Income Certificate application form from the Taluka/Tehsil office or download from the district website.",
+                "step_description_marathi": "तालुका/तहसील कार्यालयातून किंवा जिल्हा वेबसाइटवरून अर्ज फॉर्म मिळवा.",
+                "tips": "Verify the latest form version on the district portal.",
+                "common_errors": "Using an outdated form or incomplete fields."
+            },
+            {
+                "step_number": 2,
+                "step_title_en": "Fill Form & Attach Documents",
+                "step_title_marathi": "फॉर्म भरा आणि कागदपत्रे संलग्न करा",
+                "step_description_en": "Fill in applicant and family income details, attach identity, residence and income proofs as per checklist.",
+                "step_description_marathi": "अर्जदार व कुटुंबाचे उत्पन्न तपशील भरा, आणि तपासणी यादीनुसार ओळख, निवास व उत्पन्न पुरावे संलग्न करा.",
+                "tips": "Carry originals for verification.",
+                "common_errors": "Missing signatures or missing supporting documents."
+            },
+            {
+                "step_number": 3,
+                "step_title_en": "Submit & Pay Fee",
+                "step_title_marathi": "सबमिट करा आणि फी भरा",
+                "step_description_en": "Submit form at the revenue counter; pay the prescribed fee or receive acknowledgement slip.",
+                "step_description_marathi": "अर्ज महसूल काउंटरवर सादर करा; निश्चित फी भरा किंवा पावती घ्या.",
+                "tips": "Obtain acknowledgement with application number for tracking.",
+                "common_errors": "Not taking acknowledgement slip or wrong payment mode."
+            },
+            {
+                "step_number": 4,
+                "step_title_en": "Verification & Collection",
+                "step_title_marathi": "प्रमाणीकरण व संकलन",
+                "step_description_en": "Office verifies documents; field verification may be carried out if needed. Collect certificate when informed or download if available.",
+                "step_description_marathi": "कार्यालय कागदपत्रे तपासते; आवश्यक असल्यास फील्ड तपासणी केली जाऊ शकते. सूचित केल्यावर प्रमाणपत्र घ्या किंवा उपलब्ध असल्यास डाउनलोड करा.",
+                "tips": "Keep the receipt number to check status.",
+                "common_errors": "Missing to respond to additional verification calls leading to delays."
+            }
+        ]
+    },
+    "fees_structure": [
+        {
+            "category": "General",
+            "fee_amount": "5",
+            "currency": "INR",
+            "payment_modes": [
+                "Online",
+                "Cash",
+                "POS at Seva Kendra"
+            ],
+            "exemptions": "Certain welfare categories may be exempted from local service charges; check local district notice."
+        },
+        {
+            "category": "SC/ST",
+            "fee_amount": "0",
+            "currency": "INR",
+            "payment_modes": [
+                "N/A"
+            ],
+            "exemptions": "Full or partial exemption is often provided for SC/ST/BPL depending on district rules."
+        },
+        {
+            "category": "BPL",
+            "fee_amount": "0",
+            "currency": "INR",
+            "payment_modes": [
+                "N/A"
+            ],
+            "exemptions": "Full exemption commonly applied where BPL card is produced."
+        },
+        {
+            "category": "Seva Kendra Service Charge (if applying through Aaple Sarkar Seva Kendra)",
+            "fee_amount": "Varies (example: news reports indicate ~₹69 per transaction at some gram panchayat-run Seva Kendras; this is a service/handling charge, not Govt. statutory fee)",
+            "currency": "INR",
+            "payment_modes": [
+                "Cash",
+                "POS at center"
+            ],
+            "exemptions": "DATA_NOT_AVAILABLE"
+        }
+    ],
+    "district_variations": [
+        {
+            "district_name": "Mumbai City",
+            "variations": "Urban municipal areas sometimes require additional residence proof (municipal address) and may route certain services through Municipal Corporation (BMC) counters for verification.",
+            "special_requirements": [
+                "Utility bills / municipal documents for address matching"
+            ],
+            "different_fees": "Municipal facilitation charges may apply at civic counters.",
+            "different_offices": "BMC ward office involvement for address verification in some cases.",
+            "notes": "Metropolitan region schemes (housing) use separate EWS/LIG slabs for Mumbai metro region in some policy notifications."
+        },
+        {
+            "district_name": "Pune",
+            "variations": "Many Pune talukas provide downloadable form on district portal. Housing/EWS definitions sometimes use metro slab values for Pune city.",
+            "special_requirements": [
+                "Employer certificate for salaried personnel sometimes requested"
+            ],
+            "different_fees": "DATA_NOT_AVAILABLE",
+            "different_offices": "Tehsil office at taluka level; some Pune municipal wards facilitate verification.",
+            "notes": "Aaple Sarkar Seva Kendras available across many talukas."
+        },
+        {
+            "district_name": "Nagpur",
+            "variations": "Nagpur metro region occasionally uses different income slab for EWS in housing notifications (higher caps for metro).",
+            "special_requirements": [
+                "Proof of family composition via ration card is commonly checked"
+            ],
+            "different_fees": "DATA_NOT_AVAILABLE",
+            "different_offices": "District Tehsil / Revenue office",
+            "notes": "District websites provide downloadable application formats."
+        },
+        {
+            "district_name": "Nashik",
+            "variations": "Rural taluka procedures often rely on Talathi/Gramsevak verification; field enquiry may be frequent in rural pockets.",
+            "special_requirements": [
+                "Gramsevak/Talathi certificate in villages"
+            ],
+            "different_fees": "DATA_NOT_AVAILABLE",
+            "different_offices": "Taluka Tahsildar office",
+            "notes": "Check local taluka for specific document checklist."
+        },
+        {
+            "district_name": "Thane",
+            "variations": "Large urban + rural mix; municipal vs taluka verification varies by area.",
+            "special_requirements": [
+                "Municipal property tax receipts or rent agreement for urban addresses"
+            ],
+            "different_fees": "DATA_NOT_AVAILABLE",
+            "different_offices": "Taluka Tehsil office; some municipal facilitation centers help with submission.",
+            "notes": "Seva Kendra availability and charges vary by taluka."
+        }
+    ],
+    "offices": [
+        {
+            "district": "Mumbai City",
+            "taluka": "Mumbai",
+            "office_type": "Tehsil Office",
+            "office_name": "Tehsil Office, Mumbai City",
+            "address": "Tehsildar Office, [Exact Taluka address varies] — Citizens should refer to Municipal/Taluka website for exact building address.",
+            "pincode": "400001",
+            "contact_number": "+91-22-XXXXXXX",
+            "email": "DATA_NOT_AVAILABLE",
+            "working_hours": "10:00 AM - 5:00 PM (Mon-Fri)",
+            "weekly_off": "Saturday, Sunday",
+            "best_time_to_visit": "Morning hours",
+            "latitude": 18.9270,
+            "longitude": 72.8347
+        },
+        {
+            "district": "Pune",
+            "taluka": "Pune",
+            "office_type": "Tahsildar Office",
+            "office_name": "Tahsildar Office, Pune",
+            "address": "Tahsildar Office, Pune District Collectorate Complex (refer district portal for exact office location)",
+            "pincode": "411001",
+            "contact_number": "+91-20-XXXXXXX",
+            "email": "revenue.pune@maharashtra.gov.in (DATA_NOT_VERIFIED)",
+            "working_hours": "10:00 AM - 5:00 PM (Mon-Fri)",
+            "weekly_off": "Saturday, Sunday",
+            "best_time_to_visit": "Morning hours",
+            "latitude": 18.5204,
+            "longitude": 73.8567
+        },
+        {
+            "district": "Nagpur",
+            "taluka": "Nagpur",
+            "office_type": "Tahsildar Office",
+            "office_name": "Tahsildar Office, Nagpur",
+            "address": "Tahsildar Office, Nagpur District Collectorate (see district website for exact address)",
+            "pincode": "440001",
+            "contact_number": "+91-71-XXXXXXX",
+            "email": "DATA_NOT_AVAILABLE",
+            "working_hours": "10:00 AM - 5:00 PM (Mon-Fri)",
+            "weekly_off": "Saturday, Sunday",
+            "best_time_to_visit": "Morning hours",
+            "latitude": 21.1458,
+            "longitude": 79.0882
+        },
+        {
+            "district": "Nashik",
+            "taluka": "Nashik",
+            "office_type": "Tahsildar Office",
+            "office_name": "Tahsildar Office, Nashik",
+            "address": "Tahsildar Office, Nashik District Collectorate (see district portal for exact address)",
+            "pincode": "422001",
+            "contact_number": "+91-25-XXXXXXX",
+            "email": "DATA_NOT_AVAILABLE",
+            "working_hours": "10:00 AM - 5:00 PM (Mon-Fri)",
+            "weekly_off": "Saturday, Sunday",
+            "best_time_to_visit": "Morning hours",
+            "latitude": 19.9975,
+            "longitude": 73.7898
+        },
+        {
+            "district": "Thane",
+            "taluka": "Thane",
+            "office_type": "Tahsildar Office",
+            "office_name": "Tahsildar Office, Thane",
+            "address": "Tahsildar Office, Thane District Collectorate (see district site for exact location)",
+            "pincode": "400602",
+            "contact_number": "+91-25-XXXXXXX",
+            "email": "DATA_NOT_AVAILABLE",
+            "working_hours": "10:00 AM - 5:00 PM (Mon-Fri)",
+            "weekly_off": "Saturday, Sunday",
+            "best_time_to_visit": "Morning hours",
+            "latitude": 19.2183,
+            "longitude": 72.9781
+        }
+    ],
+    "faqs": [
+        {
+            "question_en": "Can I apply from a different district?",
+            "question_marathi": "मी दुसऱ्या जिल्ह्यातून अर्ज करू शकतो का?",
+            "answer_en": "Generally you should apply at the Taluka/Tehsil where you are a resident (address on Aadhaar/ration card). Some districts allow application at the place of current residence with supporting proof, but the issuing authority is typically the local Tahsildar.",
+            "answer_marathi": "सामान्यतः आपण आपल्या रहिवासी तालुका/तहसील येथे अर्ज करावा (आधार/रशन कार्डवरील पत्ता). काही प्रकरणांमध्ये सध्याच्या रहिवासी ठिकाणाहून पुराव्यांसह अर्ज करता येऊ शकतो, परंतु प्रमाणपत्र स्थानिक तहसीलदाराकडूनच दिले जाते.",
+            "category": "Application Process"
+        },
+        {
+            "question_en": "How long is an income certificate valid?",
+            "question_marathi": "उत्पन्न प्रमाणपत्र किती काळासाठी वैध असते?",
+            "answer_en": "Validity depends on the purpose and consuming department — many institutions accept certificates issued within the last 1 year; some schemes may accept up to 3 years. Confirm with the agency requiring the certificate.",
+            "answer_marathi": "वैधता वापरावर आणि संबंधित खात्यावर अवलंबून असते — अनेक संस्था मागील 1 वर्षात जारी केलेले प्रमाणपत्र स्वीकारतात; काही योजनांमध्ये 3 वर्षे लागू होऊ शकतात. प्रमाणपत्राची आवश्यकता असलेल्या संस्थेशी पुष्टी करा.",
+            "category": "Validity"
+        },
+        {
+            "question_en": "What if I don't have formal income documents?",
+            "question_marathi": "माझ्याकडे औपचारिक उत्पन्न दस्तऐवज नसतील तर काय?",
+            "answer_en": "Revenue officers may accept a sworn affidavit/self-declaration and may carry out field verification (Talathi/Gramsevak). However for many schemes ITR/Form16 or bank statements are preferred.",
+            "answer_marathi": "महसूल अधिकाऱ्यांनी शपथपत्र/स्व-घोषणा स्वीकारू शकते आणि फील्ड तपासणी केली जाऊ शकते. परंतु अनेक योजना यासाठी ITR/Form16/बँक स्टेटमेंटला प्राधान्य देतात.",
+            "category": "Documents"
+        },
+        {
+            "question_en": "Can the certificate be downloaded online?",
+            "question_marathi": "प्रमाणपत्र ऑनलाईन डाउनलोड करता येईल का?",
+            "answer_en": "Yes — if the district has enabled e-issuance via Aaple Sarkar. Otherwise, applicants receive an acknowledgement and collect from the taluka office.",
+            "answer_marathi": "होय — जर जिल्ह्याने Aaple Sarkar द्वारे ई-इश्यूअन सक्षम केले असेल तर. अन्यथा, अर्जदारांना पावती मिळते आणि ते तहसील कार्यालयातून प्रमाणपत्र घेऊ शकतात.",
+            "category": "Application Process"
+        },
+        {
+            "question_en": "Is there an expedited (tatkal) option?",
+            "question_marathi": "तातडी (तात्कालिक) पर्याय आहे का?",
+            "answer_en": "DATA_NOT_AVAILABLE — the RTS Act provides fixed timelines (15 days). Some districts may offer faster processing in exceptional cases; check local office.",
+            "answer_marathi": "DATA_NOT_AVAILABLE — RTS कायदा 15 दिवसांची निश्चित मुदत देतो. काही जिल्हे अपवादात्मक प्रकरणांत वेगवान प्रक्रिया देऊ शकतात; स्थानिक कार्यालयाशी तपासा.",
+            "category": "Processing Time"
+        },
+        {
+            "question_en": "Does Income Certificate automatically qualify me for EWS?",
+            "question_marathi": "उत्पन्न प्रमाणपत्र मला आपोआप EWS साठी पात्र बनवते का?",
+            "answer_en": "No — the Income Certificate only states family income. Whether that income satisfies EWS/LIG/MIG thresholds is determined by the consuming scheme or department which applies its own thresholds.",
+            "answer_marathi": "नाही — उत्पन्न प्रमाणपत्र फक्त कुटुंबाचे उत्पन्न दाखवते. EWS/LIG/MIG निकष पूर्ण होतात का हे ती योजना/विभाग ठरवते.",
+            "category": "Eligibility"
+        },
+        {
+            "question_en": "What is the Right To Public Services timeline for Income Certificate?",
+            "question_marathi": "उत्पन्न प्रमाणपत्रासाठी सार्वजनिक सेवा हक्क (RTS) कालावधी किती आहे?",
+            "answer_en": "15 working days (Income Certificate is a listed Revenue service under Maharashtra RTS Act with 15 days timeline).",
+            "answer_marathi": "15 कार्यदिवस (उत्पन्न प्रमाणपत्र महसूल सेवांमध्ये RTS अंतर्गत 15 दिवसात दिले जाण्याचे नोंदिलेले आहे).",
+            "category": "Processing Time"
+        },
+        {
+            "question_en": "Can students outside Maharashtra use this certificate?",
+            "question_marathi": "महत्त्वाचे: महाराष्ट्राबाहेरील विद्यार्थी हे प्रमाणपत्र वापरू शकतात का?",
+            "answer_en": "No — the Maharashtra income certificate is issued to state residents and many state schemes/scholarships require Maharashtra domicile; out-of-state applicants should obtain certificate from their home state.",
+            "answer_marathi": "नाही — महाराष्ट्र उत्पन्न प्रमाणपत्र राज्यातील रहिवाशांसाठी जारी होते व अनेक योजना/शिष्यवृत्तीसाठी राज्यीय अधिवास आवश्यक असतो; बाहेरच्या राज्यातील अर्जदारांनी स्वतःच्या राज्यातून प्रमाणपत्र घ्यावे.",
+            "category": "Usage"
+        },
+        {
+            "question_en": "Who signs the income certificate?",
+            "question_marathi": "उत्पन्न प्रमाणपत्रावर कोण स्वाक्षरी करतो?",
+            "answer_en": "Authorized revenue officer — typically Nayab Tahsildar / Tahsildar (depending on delegation in that taluka).",
+            "answer_marathi": "अधिकृत महसूल अधिकारी — सहसा ना. तहसिलदार / तहसिलदार (तालुका प्रमाणे अधिकार देण्यात आलेले असते).",
+            "category": "Issuance"
+        }
+    ],
+    "common_issues": [
+        {
+            "issue_description_en": "Application rejected due to incorrect income proof",
+            "issue_description_marathi": "चुकीच्या उत्पन्न पुराव्यामुळे अर्ज नाकारला",
+            "solution_en": "Resubmit with correct documentary evidence (ITR/Form16/salary slips/bank statements). If informal income, provide a sworn affidavit and request field verification.",
+            "solution_marathi": "योग्य कागदपत्र (ITR/Form16/पगार पर्च्या/बँक स्टेटमेंट) सह पुन्हा सादर करा. अनौपचारिक उत्पन्न असल्यास शपथपत्र द्या आणि फील्ड तपासणीची विनंती करा.",
+            "frequency": "High",
+            "prevention_tips": "Check the accepted list of income proofs on the district checklist before submission."
+        },
+        {
+            "issue_description_en": "Delay because of incomplete family composition details",
+            "issue_description_marathi": "कुटुंबाची संपूर्ण माहिती नसल्यामुळे उशीर",
+            "solution_en": "Provide complete family member list with supporting ID documents (ration card/Aadhaar).",
+            "solution_marathi": "रशन कार्ड/आधार यांसारख्या समर्थन ID सह पूर्ण कुटुंब यादी द्या.",
+            "frequency": "High",
+            "prevention_tips": "Prepare family identity proofs (ration card, Aadhaar copies) beforehand."
+        },
+        {
+            "issue_description_en": "Mismatch between declared income and ITR/Form16 numbers",
+            "issue_description_marathi": "घोषित उत्पन्न व ITR/Form16 मधील आकडे जुळत नाहीत",
+            "solution_en": "Clarify and correct figures; attach ITR/Form16/bank statements to reconcile differences.",
+            "solution_marathi": "आकडे स्पष्ट करा व दुरुस्त करा; फरक मिटवण्यासाठी ITR/Form16/बँक स्टेटमेंट संलग्न करा.",
+            "frequency": "High",
+            "prevention_tips": "Use exact figures from official documents when filling amounts."
+        },
+        {
+            "issue_description_en": "Field verification request delaying issuance",
+            "issue_description_marathi": "फील्ड तपासणीमुळे जारी करण्यात विलंब",
+            "solution_en": "Cooperate with the field officer, provide requested documents promptly, and request a tentative timeline from the office.",
+            "solution_marathi": "फील्ड अधिकाऱ्याशी सहकार्य करा, लवकरात लवकर आवश्यक कागदपत्रे द्या आणि कार्यालयाकडून अंदाजे कालावधी मागवा.",
+            "frequency": "Medium",
+            "prevention_tips": "Provide full and clear proof at submission to reduce need for field checks."
+        },
+        {
+            "issue_description_en": "Application lost / no acknowledgement",
+            "issue_description_marathi": "अर्ज हरवला / पावती नाही",
+            "solution_en": "Visit the submission counter with identity proof and request status using applicant details; if applied online, use application number to track.",
+            "solution_marathi": "सादर केलेल्या काउंटरवर ओळखपत्र घेऊन जा आणि अर्ज तपासण्यासाठी विनंती करा; ऑनलाईन अर्ज असल्यास अर्ज क्रमांक वापरून ट्रॅक करा.",
+            "frequency": "Low",
+            "prevention_tips": "Always take acknowledgement receipt and note application number."
+        },
+        {
+            "issue_description_en": "Portal rejects uploads due to file size/type",
+            "issue_description_marathi": "फाइल आकार / प्रकारामुळे पोर्टलने अपलोड नाकारले",
+            "solution_en": "Compress or convert documents to accepted formats (PDF/JPG) and re-upload. Follow portal file-size limits.",
+            "solution_marathi": "फाइल संकुचित करा किंवा स्वीकारलेल्या फॉरमॅटमध्ये रूपांतर करा (PDF/JPG) आणि पुन्हा अपलोड करा. पोर्टलच्या मर्यादा पाळा.",
+            "frequency": "Medium",
+            "prevention_tips": "Scan documents at recommended DPI and check portal help for size limits."
+        },
+        {
+            "issue_description_en": "Discrepancy in name spelling between documents",
+            "issue_description_marathi": "दस्तऐवजांमध्ये नावाच्या स्पेलिंगमध्ये विसंगती",
+            "solution_en": "Provide affidavit or supporting ID that connects the name variants (e.g., marriage certificate). Request correction before certificate issuance.",
+            "solution_marathi": "नावाच्या बदलांसाठी शपथपत्र किंवा समर्थन ID द्या (उदा. विवाह प्रमाणपत्र). प्रमाणपत्र जारी होण्यापूर्वी दुरुस्तीसाठी विनंती करा.",
+            "frequency": "Medium",
+            "prevention_tips": "Use consistent name spellings across all documents or provide a linking affidavit."
+        },
+        {
+            "issue_description_en": "Seva Kendra charges higher facilitation fee",
+            "issue_description_marathi": "सेवा केंद्राची अधिक सुविधा शुल्क आकारणी",
+            "solution_en": "Check official Aaple Sarkar portal for statutory fee and ask for itemised receipt from the Kendra. Seva Kendra may charge extra handling fee which should be disclosed.",
+            "solution_marathi": "कायदेशीर फी साठी Aaple Sarkar पोर्टल तपासा आणि केंद्राकडून तपशीलवार पावती मागवा. सेवा केंद्र अतिरिक्त हाताळणी शुल्क आकारू शकते जे जाहीर केलेले असावे.",
+            "frequency": "Medium",
+            "prevention_tips": "Apply online yourself where possible to avoid third-party facilitation charges."
+        },
+        {
+            "issue_description_en": "Certificate details incorrect after issuance",
+            "issue_description_marathi": "जारी केल्यानंतर प्रमाणपत्राची माहिती चुकीची",
+            "solution_en": "Approach the issuing Tahsildar office with the acknowledgement and request rectification; there is an appellate mechanism under RTS for grievances.",
+            "solution_marathi": "पावती घेऊन तहसीलदार कार्यालयाशी संपर्क करा आणि दुरुस्तीची विनंती करा; RTS अंतर्गत तक्रार निवारणाचा मार्ग आहे.",
+            "frequency": "Low",
+            "prevention_tips": "Carefully check all fields before final submission and immediately request correction if found."
+        }
+    ],
+    "tracking_information": {
+        "online_tracking_available": true,
+        "tracking_url": "https://aaplesarkar.mahaonline.gov.in/en (use Application Status/Track service on portal or district e-services status pages)",
+        "tracking_method": "Application number / Mobile number (OTP)",
+        "sms_updates": true,
+        "email_updates": true,
+        "estimated_response_time": "15 working days (as per RTS listing; actual may be shorter depending on district)"
+    },
+    "grievance_redressal": {
+        "complaint_portal": "https://aaplesarkar.mahaonline.gov.in/en (Right To Service / grievance mechanism available through district portals and Aaple Sarkar contact forms)",
+        "complaint_helpline": "DATA_NOT_AVAILABLE (district collector office helpline numbers are published on respective district portals)",
+        "complaint_email": "DATA_NOT_AVAILABLE (use district collector/revenue office email from district website)",
+        "escalation_process": "1) Contact the issuing Tahsildar/Nayab Tahsildar; 2) If unresolved, file First Appeal to designated First Appellate Officer (as per RTS details); 3) If unresolved, file Second Appeal as per district/RTS mechanism and then approach Collector or designated authority. RTS prescribes officers & timelines.",
+        "ombudsman_details": "DATA_NOT_AVAILABLE (use district collectorate / state-level grievance portals)"
+    },
+    "additional_notes": {
+        "recent_changes": "Income slabs for housing/EWS/LIG/MIG have been revised in recent years for specific schemes — e.g., state notifications changed metro vs rest-of-state slabs for some housing schemes. Always confirm scheme-specific income thresholds (EWS/LIG/MIG) from the scheme circular/GR rather than from the Income Certificate alone.",
+        "seasonal_variations": "Rush periods: academic admission seasons (May–Aug), housing scheme application windows, and scholarship timelines — expect longer processing times during these periods.",
+        "special_provisions": "Senior citizens, persons with disabilities, and BPL/SC/ST applicants often receive concessions or fee exemptions — check district circulars for special facilitation.",
+        "related_documents": [
+            "Domicile Certificate",
+            "Caste Certificate (if applying for caste-based reservation)",
+            "BPL Certificate / Ration Card (for schemes targeting BPL)",
+            "Bank account passbook (for subsidies)"
+        ],
+        "useful_links": [
+            "Aaple Sarkar Income Certificate service listing / portal (use for applying online)",
+            "District revenue office forms (example: Chhatrapati Sambhajinagar district income certificate form)",
+            "Maharashtra Right to Public Services Act, 2015 listings for Revenue services"
+        ]
+    },
+    "sources": [
+        {
+            "source_name": "Aaple Sarkar Portal - Income Certificate service listing",
+            "source_url": "https://aaplesarkar.mahaonline.gov.in/en/Login/Certificate_Documents?ServiceId=1251",
+            "accessed_date": "2025-01-XX",
+            "reliability": "Official/High"
+        },
+        {
+            "source_name": "Aaple Sarkar — General portal (service hub)",
+            "source_url": "https://aaplesarkar.mahaonline.gov.in/en",
+            "accessed_date": "2025-01-XX",
+            "reliability": "Official/High"
+        },
+        {
+            "source_name": "Maharashtra Right to Public Services Act — RTS service listing (Revenue services: Income Certificate — 15 days)",
+            "source_url": "https://ahilyanagar.maharashtra.gov.in/en/right-to-service-act/",
+            "accessed_date": "2025-01-XX",
+            "reliability": "Official/High"
+        },
+        {
+            "source_name": "District example: Chhatrapati Sambhajinagar district — Income Certificate application form / guidance",
+            "source_url": "https://chhatrapatisambhajinagar.maharashtra.gov.in/en/form/income-certificate-application/",
+            "accessed_date": "2025-01-XX",
+            "reliability": "Official/High"
+        },
+        {
+            "source_name": "News / Policy reference on income slab revisions for EWS/LIG/MIG in Maharashtra (context for scheme-specific thresholds)",
+            "source_url": "https://www.moneycontrol.com/news/business/real-estate/maharashtra-government-revises-income-slabs-for-buyers-of-affordable-homes-8691291.html",
+            "accessed_date": "2025-01-XX",
+            "reliability": "High (reputable news; use to locate official GR referenced therein)"
+        },
+        {
+            "source_name": "Sample district income-certificate checklist (Satara district example)",
+            "source_url": "https://www.satara.gov.in/en/service/income-certificate/",
+            "accessed_date": "2025-01-XX",
+            "reliability": "Official/High"
+        },
+        {
+            "source_name": "Mahadbt scheme page referencing income certificate requirements for beneficiaries",
+            "source_url": "https://mahadbt.maharashtra.gov.in/SchemeData/SchemeData?str=E9DDFA703C38E51A1FA3AA7E67D54CF402FD88D88C64949C41EC3238C8545A71",
+            "accessed_date": "2025-01-XX",
+            "reliability": "Official/High"
+        }
+    ]
+}

@@ -1,0 +1,466 @@
+{
+    "document_info": {
+        "document_name_en": "Non-Creamy Layer Certificate",
+        "document_name_marathi": "गैर क्रीमी स्तर प्रमाणपत्र",
+        "alternate_names_en": [
+            "NCL Certificate",
+            "Caste-Based Income Certificate"
+        ],
+        "alternate_names_marathi": [
+            "गैर क्रीमी स्तर दाखला",
+            "जातीवर आधारित उत्पन्न प्रमाणपत्र"
+        ],
+        "category": "Social Welfare / Reservation Benefits",
+        "issuing_authority_en": "Sub-Divisional Officer (SDO) / Tahsildar (Urban Taluka)",
+        "issuing_authority_marathi": "उपविभागीय अधिकारी / तहसीलदार",
+        "issuing_department_en": "Social Justice & Special Assistance Department, Maharashtra",
+        "issuing_department_marathi": "समाज न्याय व विशेष सहाय्य विभाग, महाराष्ट्र शासन",
+        "legal_basis": "Maharashtra State Reservation Act, Government Resolutions dated 25/05/2004, 01/06/2018, 12/10/2023, 2024–2025 Income Limit Updates",
+        "purpose_en": "To avail reservation benefits in education, government jobs, promotions, scholarships, hostel facilities, fee concessions etc.",
+        "purpose_marathi": "शैक्षणिक प्रवेश, सरकारी नोकरी, बढती, शिष्यवृत्ती, वसतिगृह, शुल्क सवलत इत्यादी लाभ मिळवण्यासाठी.",
+        "validity_period_en": "1 Year (For Jobs); Upto 3 Years (For Education) — varies by institution.",
+        "validity_period_marathi": "१ वर्ष (नोकरीसाठी); ३ वर्षांपर्यंत (शैक्षणिक हेतूसाठी) — संस्थेनुसार बदलू शकते.",
+        "processing_time_normal": "7 to 30 working days",
+        "processing_time_tatkal": "Tatkal Not Available for NCL",
+        "application_modes": [
+            "Online",
+            "Offline",
+            "CSC (Setu / Maha e-Seva Kendra)"
+        ],
+        "official_portal": "https://aaplesarkar.mahaonline.gov.in",
+        "helpline_number": "020-2612 6800 (Pune Collector Office Helpdesk)",
+        "last_updated": "2025-01-15"
+    },
+    "eligibility": {
+        "domicile_requirement_en": "Applicant or parent must be domiciled in Maharashtra.",
+        "domicile_requirement_marathi": "अर्जदार किंवा त्याचे पालक महाराष्ट्रात अधिवासित असणे आवश्यक.",
+        "caste_certificate_requirement_en": "Valid caste certificate is mandatory before applying.",
+        "caste_certificate_requirement_marathi": "वैध जात प्रमाणपत्र असणे अनिवार्य.",
+        "caste_validity_requirement_en": "For education and government services — Caste Validity Certificate may be required.",
+        "caste_validity_requirement_marathi": "शिक्षण व सरकारी नोकरीसाठी — जात वैधता प्रमाणपत्र आवश्यक असू शकते.",
+        "income_limit_en": "Total annual family income must be **below ₹8,00,000** (Salary + Business + Income from all sources).",
+        "income_limit_marathi": "कुटुंबाचे एकूण वार्षिक उत्पन्न **₹८,००,०००** पेक्षा कमी असावे (पगार + व्यवसाय + शेती + इतर सर्व स्रोत).",
+        "who_can_apply_en": [
+            "OBC category individuals",
+            "VJNT category individuals",
+            "SBC category individuals",
+            "Children of above category parents"
+        ],
+        "who_can_apply_marathi": [
+            "ओबीसी प्रवर्गातील व्यक्ती",
+            "VJNT प्रवर्गातील व्यक्ती",
+            "SBC प्रवर्गातील व्यक्ती",
+            "वरील प्रवर्गातील पालकांची मुले"
+        ],
+        "exclusions_en": [
+            "Family income above ₹8,00,000",
+            "Parents employed in Class-I or Class-II Gazetted posts",
+            "Parents engaged in high-income private/business sector"
+        ],
+        "exclusions_marathi": [
+            "कुटुंबाचे उत्पन्न ₹८,००,००० पेक्षा जास्त",
+            "पालक वर्ग-१ / वर्ग-२ राजपत्रित अधिकारी असल्यास",
+            "उच्च उत्पन्न असलेला व्यवसाय / खाजगी क्षेत्र"
+        ]
+    },
+    "category_wise_conditions": {
+        "OBC": {
+            "requirement_en": "OBC Caste Certificate + Income Proof under ₹8 Lakhs.",
+            "requirement_marathi": "ओबीसी जात प्रमाणपत्र + ₹८ लाखांखालील उत्पन्नाचा पुरावा.",
+            "validity_note": "Caste Validity Certificate **may be required** for education & jobs."
+        },
+        "VJNT": {
+            "requirement_en": "VJNT Caste Certificate and sometimes Certificate of Nomadic Tribe Sub-Category.",
+            "requirement_marathi": "VJNT जात प्रमाणपत्र व काही प्रकरणात उपवर्ग दर्शविणारे प्रमाणपत्र.",
+            "validation": "Caste Validity usually compulsory for higher education."
+        },
+        "SBC": {
+            "requirement_en": "SBC Caste Certificate + Income Certificate.",
+            "requirement_marathi": "SBC जात प्रमाणपत्र + उत्पन्न प्रमाणपत्र.",
+            "special_note": "Some SBC categories are converted to OBC subgroups; verification required."
+        }
+    },
+    "required_documents": [
+        {
+            "doc_name_en": "Caste Certificate (Original + Copy)",
+            "doc_name_marathi": "जात प्रमाणपत्र (मूळ + प्रति)",
+            "is_mandatory": true,
+            "issued_by": "Tahsildar / SDO",
+            "notes": "Must match father's caste in most cases."
+        },
+        {
+            "doc_name_en": "Income Certificate (Past 3 Years preferred)",
+            "doc_name_marathi": "उत्पन्न प्रमाणपत्र (किमान ३ वर्षे)",
+            "is_mandatory": true,
+            "issued_by": "Tahsildar / MahaOnline",
+            "notes": "Considered from ALL sources."
+        },
+        {
+            "doc_name_en": "Domicile Certificate / Residence Proof",
+            "doc_name_marathi": "अधिवास प्रमाणपत्र / वास्तव्य पुरावा",
+            "is_mandatory": true,
+            "alternatives": [
+                "Ration Card",
+                "Electricity Bill",
+                "Voter ID"
+            ]
+        },
+        {
+            "doc_name_en": "Educational Leaving Certificate (LC / TC)",
+            "doc_name_marathi": "शाळा सोडल्याचे प्रमाणपत्र (LC / TC)",
+            "notes": "Sometimes used to confirm caste lineage."
+        },
+        {
+            "doc_name_en": "Salary Slip / Form 16 / ITR (if employed)",
+            "doc_name_marathi": "पगार स्लिप / फॉर्म १६ / आयकर विवरणपत्र (नोकरी असल्यास)",
+            "notes": "Mandatory for government & private job parents."
+        },
+        {
+            "doc_name_en": "Agriculture Income Record (7/12 & 8A Extract) if farmer",
+            "doc_name_marathi": "शेती उत्पन्न दाखला (७/१२ व ८अ उतारा) शेतकरी असल्यास"
+        },
+        {
+            "doc_name_en": "Self Declaration Affidavit (Stamp Paper ₹100)",
+            "doc_name_marathi": "स्वघोषणा शपथपत्र (₹१०० स्टॅम्प पेपर)",
+            "notes": "Includes family income + occupation details."
+        },
+        {
+            "doc_name_en": "AADHAAR Card",
+            "doc_name_marathi": "आधार कार्ड",
+            "is_mandatory": true
+        },
+        {
+            "doc_name_en": "PAN Card (if income taxable)",
+            "doc_name_marathi": "PAN कार्ड (आयकरपात्र असल्यास)"
+        }
+    ],
+    "application_process_online": {
+        "available": true,
+        "portal_name": "Aaple Sarkar Seva Kendra / MahaOnline",
+        "portal_url": "https://aaplesarkar.mahaonline.gov.in",
+        "steps": [
+            {
+                "step_number": 1,
+                "step_title_en": "Citizen Registration on Aaple Sarkar",
+                "step_title_marathi": "अपले सरकार पोर्टलवर नागरिक नोंदणी",
+                "step_description_en": "Create an account using Aadhaar OTP or by uploading ID documents.",
+                "step_description_marathi": "आधार OTP द्वारे किंवा ओळखपत्र अपलोड करून खाते तयार करा.",
+                "tips": "Use Aadhaar-linked mobile number for faster verification.",
+                "common_errors": "Mismatch in Aadhaar address may cause verification failure.",
+                "estimated_time": "10-15 minutes"
+            },
+            {
+                "step_number": 2,
+                "step_title_en": "Search for Service",
+                "step_title_marathi": "सेवा शोधा",
+                "step_description_en": "Select 'Non-Creamy Layer Certificate (For OBC / VJNT / SBC)'.",
+                "step_description_marathi": "‘गैर क्रीमी स्तर प्रमाणपत्र (OBC / VJNT / SBC साठी)’ निवडा.",
+                "tips": "Select correct category to avoid rejection.",
+                "common_errors": "Selecting 'EWS' instead of 'NCL' by mistake."
+            },
+            {
+                "step_number": 3,
+                "step_title_en": "Fill Application Form",
+                "step_title_marathi": "अर्ज फॉर्म भरा",
+                "step_description_en": "Enter personal, caste, income, and domicile details accurately.",
+                "step_description_marathi": "वैयक्तिक, जात, उत्पन्न व अधिवास तपशील अचूक भरा.",
+                "common_errors": "Income details mismatching with Income Certificate."
+            },
+            {
+                "step_number": 4,
+                "step_title_en": "Upload Required Documents",
+                "step_title_marathi": "आवश्यक कागदपत्रे अपलोड करा",
+                "documents_upload_format": "PDF/JPG, Max size: 200 KB per document",
+                "tips": "Ensure documents are clear and self-attested.",
+                "common_errors": "Uploading blurred or incomplete documents."
+            },
+            {
+                "step_number": 5,
+                "step_title_en": "Submit Application & Make Payment",
+                "step_title_marathi": "अर्ज सबमिट करा व शुल्क भरा",
+                "payment_gateway": "Debit Card / UPI / Net Banking / Wallet"
+            },
+            {
+                "step_number": 6,
+                "step_title_en": "Verification by Tahsildar Office",
+                "step_title_marathi": "तहसील कार्यालयाकडून पडताळणी",
+                "step_description_en": "Your case will be reviewed by Revenue Inspector and Talathi.",
+                "step_description_marathi": "राजस्व निरीक्षक व तलाठी तुमचा अर्ज पडताळतील."
+            },
+            {
+                "step_number": 7,
+                "step_title_en": "Certificate Download",
+                "step_title_marathi": "प्रमाणपत्र डाउनलोड",
+                "step_description_en": "Download the digitally signed NCL Certificate with QR code.",
+                "step_description_marathi": "QR कोडसह डिजिटल स्वाक्षरी केलेले प्रमाणपत्र डाउनलोड करा."
+            }
+        ]
+    },
+    "application_process_offline": {
+        "available": true,
+        "form_name": "Non-Creamy Layer Certificate Application Form",
+        "where_to_get_form": "Setu Office / Tahsil Office / Ward Citizen Facilitation Center",
+        "submission_office": "Tahsildar Office (Urban Pune: Haveli Tahsil Office)",
+        "steps": [
+            {
+                "step_number": 1,
+                "step_title_en": "Collect Application Form",
+                "step_title_marathi": "अर्ज फॉर्म मिळवा"
+            },
+            {
+                "step_number": 2,
+                "step_title_en": "Attach Required Documents",
+                "step_title_marathi": "आवश्यक कागदपत्रे जोडणे"
+            },
+            {
+                "step_number": 3,
+                "step_title_en": "Submit Application",
+                "step_title_marathi": "अर्ज सादर करा"
+            },
+            {
+                "step_number": 4,
+                "step_title_en": "Verification Visit / Phone Call",
+                "step_title_marathi": "स्थळ पडताळणी / फोन पडताळणी"
+            },
+            {
+                "step_number": 5,
+                "step_title_en": "Collect Certificate",
+                "step_title_marathi": "प्रमाणपत्र मिळवा"
+            }
+        ]
+    },
+    "fees_structure": [
+        {
+            "category": "General",
+            "fee_amount": 50,
+            "currency": "INR",
+            "payment_modes": [
+                "Online",
+                "Cash",
+                "UPI"
+            ],
+            "exemptions": "None"
+        }
+    ],
+    "caste_validity_process": {
+        "applicable": true,
+        "required_for": [
+            "Government Jobs",
+            "Professional Courses Admissions (MBBS, BDS, MPSC, UPSC, Engineering, etc.)"
+        ],
+        "steps": [
+            "Obtain School Records (Std 1–10) showing caste",
+            "Collect Parent and Grandparent Caste Certificates",
+            "Submit to Caste Validity Scrutiny Committee",
+            "Committee verifies genealogy & documentary evidence",
+            "Physical hearing may be required",
+            "Final Caste Validity Certificate is issued"
+        ],
+        "average_processing_time": "30 to 120 days"
+    },
+    "district_variations": [
+        {
+            "district_name": "Pune",
+            "variations": "Applications handled under Haveli Tahsil for urban; PMC/PCMC help centers assist.",
+            "special_requirements": [
+                "Income Certificate renewal every year"
+            ],
+            "different_offices": "Citizen Facilitation Center (Ward Office)"
+        },
+        {
+            "district_name": "Mumbai",
+            "variations": "Applications accepted through BMC Ward Offices.",
+            "different_offices": "Assistant Commissioner Ward Office",
+            "notes": "Scrutiny may take longer due to higher applicant volume."
+        },
+        {
+            "district_name": "Nagpur",
+            "variations": "Online verification integrated with LokSeva Kendra."
+        },
+        {
+            "district_name": "Nashik",
+            "variations": "Talathi sign-off strictly enforced for agriculture income cases."
+        },
+        {
+            "district_name": "Aurangabad",
+            "variations": "Village-level caste lineage verification common."
+        }
+    ],
+    "offices": [
+        {
+            "district": "Pune",
+            "office_type": "Tahsil Office (Haveli)",
+            "office_name": "Haveli Tahsildar Office",
+            "address": "Near Pune Collector Office, Camp, Pune",
+            "pincode": "411001",
+            "contact_number": "020-2612 6800",
+            "working_hours": "10:00 AM - 5:30 PM (Mon-Fri)"
+        },
+        {
+            "district": "Pune",
+            "office_type": "Citizen Facilitation Center",
+            "office_name": "PMC Ward Office",
+            "address": "Various Ward Offices across Pune City",
+            "pincode": "411003",
+            "contact_number": "020-2550 1000"
+        }
+    ],
+    "faqs": [
+        {
+            "question_en": "What is a Non-Creamy Layer Certificate?",
+            "question_marathi": "गैर क्रीमी स्तर प्रमाणपत्र म्हणजे काय?",
+            "answer_en": "It certifies that the applicant belongs to OBC/VJNT/SBC category and does not fall under the economically forward creamy layer.",
+            "answer_marathi": "हे प्रमाणपत्र दर्शवते की अर्जदार ओबीसी/व्हीजेएनटी/एसबीसी प्रवर्गातील असून आर्थिकदृष्ट्या क्रीमी स्तरात येत नाही.",
+            "category": "General"
+        },
+        {
+            "question_en": "Is Caste Certificate required before applying for NCL?",
+            "question_marathi": "NCL साठी अर्ज करण्यापूर्वी जात प्रमाणपत्र आवश्यक आहे का?",
+            "answer_en": "Yes. Caste Certificate is mandatory before applying for NCL.",
+            "answer_marathi": "होय. गैर क्रीमी स्तर प्रमाणपत्राच्या अर्जापूर्वी जात प्रमाणपत्र अनिवार्य आहे.",
+            "category": "Requirements"
+        },
+        {
+            "question_en": "Is Caste Validity Certificate required for NCL?",
+            "question_marathi": "NCL साठी जात वैधता प्रमाणपत्र आवश्यक आहे का?",
+            "answer_en": "For school/college admission and government job recruitment, Caste Validity Certificate is usually required.",
+            "answer_marathi": "शैक्षणिक प्रवेश व सरकारी नोकरीसाठी जात वैधता प्रमाणपत्र सामान्यतः आवश्यक असते.",
+            "category": "Caste Validity"
+        },
+        {
+            "question_en": "What is the income limit for Non-Creamy Layer?",
+            "question_marathi": "गैर क्रीमी स्तरासाठी उत्पन्न मर्यादा किती आहे?",
+            "answer_en": "Family annual income must be below ₹8,00,000 from all sources.",
+            "answer_marathi": "कुटुंबाचे वार्षिक एकूण उत्पन्न सर्व स्रोतांसह ₹८,००,००० पेक्षा कमी असावे.",
+            "category": "Income Limit"
+        },
+        {
+            "question_en": "How long is the NCL Certificate valid?",
+            "question_marathi": "NCL प्रमाणपत्राची वैधता किती असते?",
+            "answer_en": "Usually 1 year for job purposes and up to 3 years for education purposes.",
+            "answer_marathi": "नोकरीसाठी साधारणतः १ वर्ष आणि शिक्षणासाठी ३ वर्षांपर्यंत वैध.",
+            "category": "Validity"
+        },
+        {
+            "question_en": "Is renewal required every year?",
+            "question_marathi": "प्रत्येक वर्षी नूतनीकरण आवश्यक असते का?",
+            "answer_en": "For employment-related use, yes. For educational use, validity varies by institution.",
+            "answer_marathi": "नोकरीसाठी होय. शिक्षणासाठी वैधता संस्थेनुसार बदलते.",
+            "category": "Renewal"
+        },
+        {
+            "question_en": "Can students apply for NCL?",
+            "question_marathi": "विद्यार्थी NCL साठी अर्ज करू शकतात का?",
+            "answer_en": "Yes. Students can apply with parent's income and caste documents.",
+            "answer_marathi": "होय. विद्यार्थी पालकांचे उत्पन्न व जात दस्तऐवज वापरून अर्ज करू शकतात.",
+            "category": "Students"
+        },
+        {
+            "question_en": "Do government employees need to provide Form-16?",
+            "question_marathi": "शासकीय कर्मचारी फॉर्म-१६ देणे आवश्यक आहे का?",
+            "answer_en": "Yes. Form-16 and Pay Slips are mandatory.",
+            "answer_marathi": "होय. फॉर्म-१६ आणि पगार स्लिप अनिवार्य आहेत.",
+            "category": "Income Proof"
+        },
+        {
+            "question_en": "Can private employees apply?",
+            "question_marathi": "खाजगी नोकरी करणारे अर्ज करू शकतात का?",
+            "answer_en": "Yes. Salary slips, bank statements and ITR are required.",
+            "answer_marathi": "होय. पगार स्लिप, बँक स्टेटमेंट आणि आयटीआर आवश्यक.",
+            "category": "Employment"
+        },
+        {
+            "question_en": "What if applicant's caste differs from father's certificate?",
+            "question_marathi": "वडिलांच्या प्रमाणपत्राशी अर्जदाराच्या जातीमध्ये फरक असल्यास?",
+            "answer_en": "Genealogy proof and Caste Validity Scrutiny Committee may be required.",
+            "answer_marathi": "वंशावळ पुरावा व जात पडताळणी समितीकडून तपासणी आवश्यक असू शकते.",
+            "category": "Ancestry Verification"
+        }
+    ],
+    "common_issues": [
+        {
+            "issue_description_en": "Income proof mismatch between documents.",
+            "issue_description_marathi": "उत्पन्न पुराव्यांमध्ये तफावत.",
+            "solution_en": "Ensure Form-16, Salary Slip, and Income Certificate show same yearly income.",
+            "solution_marathi": "फॉर्म-१६, पगार स्लिप व उत्पन्न प्रमाणपत्रातील उत्पन्न एकसारखे ठेवा.",
+            "frequency": "High",
+            "prevention_tips_en": "Calculate total income accurately.",
+            "prevention_tips_marathi": "एकूण उत्पन्न अचूक मोजा."
+        },
+        {
+            "issue_description_en": "Caste Validity pending.",
+            "issue_description_marathi": "जात वैधता प्रलंबित.",
+            "solution_en": "Submit validity application with complete school records.",
+            "solution_marathi": "पूर्ण शालेय दाखल्यांसह जात वैधता अर्ज करा."
+        },
+        {
+            "issue_description_en": "Family income crosses ₹8 lakh.",
+            "issue_description_marathi": "कुटुंबाचे उत्पन्न ₹८ लाखांपेक्षा जास्त.",
+            "solution_en": "NCL cannot be issued; applicant falls under Creamy Layer.",
+            "solution_marathi": "NCL मिळणार नाही; अर्जदार क्रीमी स्तरात येतो."
+        },
+        {
+            "issue_description_en": "Agriculture income not documented.",
+            "issue_description_marathi": "शेती उत्पन्नाचे पुरावे उपलब्ध नाहीत.",
+            "solution_en": "Obtain 7/12 and 8A extracts from Talathi.",
+            "solution_marathi": "तलाठ्याकडून ७/१२ व ८अ उतारे मिळवा."
+        }
+    ],
+    "tracking_information": {
+        "online_tracking_available": true,
+        "tracking_url": "https://aaplesarkar.mahaonline.gov.in/en/MISReports/TrackService",
+        "tracking_method_en": "Use Application ID or Mobile Number.",
+        "tracking_method_marathi": "अर्ज क्रमांक किंवा मोबाइल क्रमांक वापरून स्थिती तपासा.",
+        "sms_updates": true,
+        "email_updates": true,
+        "estimated_processing_time": "7 to 30 working days"
+    },
+    "grievance_redressal": {
+        "complaint_portal": "https://grievance.maharashtra.gov.in",
+        "department_contact": "Social Justice & Special Assistance Department, Mantralaya, Mumbai",
+        "helpline_number": "1800-120-8040",
+        "escalation_process_en": [
+            "1. Talathi / Revenue Inspector",
+            "2. Tahsildar / SDO",
+            "3. District Collector",
+            "4. Divisional Commissioner",
+            "5. State Social Justice Department"
+        ],
+        "escalation_process_marathi": [
+            "१. तलाठी / राजस्व निरीक्षक",
+            "२. तहसीलदार / उपविभागीय अधिकारी",
+            "३. जिल्हाधिकारी",
+            "४. विभागीय आयुक्त",
+            "५. राज्य समाज न्याय विभाग"
+        ]
+    },
+    "additional_notes": {
+        "renewal_advice_en": "Renew certificate yearly for job purposes.",
+        "renewal_advice_marathi": "नोकरीसाठी प्रमाणपत्र दरवर्षी नूतनीकरण करा.",
+        "student_note_en": "For college admission, valid NCL at time of counseling is mandatory.",
+        "student_note_marathi": "महाविद्यालय प्रवेशासाठी काउंसलिंग वेळी वैध NCL आवश्यक आहे.",
+        "related_documents": [
+            "Caste Certificate",
+            "Caste Validity Certificate",
+            "Income Certificate"
+        ],
+        "useful_links": [
+            "https://aaplesarkar.mahaonline.gov.in",
+            "https://sjsa.maharashtra.gov.in"
+        ]
+    },
+    "sources": [
+        {
+            "source_name": "Government of Maharashtra GR - NCL Income Limit Revision",
+            "source_url": "https://sjsa.maharashtra.gov.in",
+            "accessed_date": "2025-01-15",
+            "reliability": "Official"
+        },
+        {
+            "source_name": "Aaple Sarkar official service list",
+            "source_url": "https://aaplesarkar.mahaonline.gov.in",
+            "accessed_date": "2025-01-15",
+            "reliability": "Official"
+        }
+    ]
+}
