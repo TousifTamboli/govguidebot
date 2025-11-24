@@ -26,12 +26,48 @@ An intelligent AI-powered chatbot that helps citizens of Maharashtra, India navi
 
 ## 🚀 Quick Start
 
+### ⚡ Automated Setup (Recommended)
+
+**Windows:**
+```bash
+git clone https://github.com/TousifTamboli/govguidebot.git
+cd govguidebot
+setup.bat
+run.bat
+```
+
+**Linux/Mac:**
+```bash
+git clone https://github.com/TousifTamboli/govguidebot.git
+cd govguidebot
+chmod +x setup.sh run.sh
+./setup.sh
+./run.sh
+```
+
+**That's it!** Open http://localhost:7862 in your browser.
+
+---
+
+### 📖 Detailed Setup Guides
+
+- **⚡ Quick Start:** [QUICK_START.md](QUICK_START.md) - Fast reference
+- **📋 Complete Guide:** [SETUP_GUIDE.md](SETUP_GUIDE.md) - Step-by-step instructions
+- **📦 Installation Summary:** [INSTALLATION_SUMMARY.md](INSTALLATION_SUMMARY.md) - Visual guide
+
+---
+
+### 🔧 Manual Installation
+
+<details>
+<summary>Click to expand manual installation steps</summary>
+
 ### Prerequisites
 - Python 3.8 or higher
 - Google AI API Key ([Get it here](https://aistudio.google.com/app/apikey))
 - Tesseract OCR (for document validation)
 
-### Installation
+### Steps
 
 1. **Clone the repository**
 ```bash
@@ -80,6 +116,8 @@ python app_ultra_modern.py
 7. **Access the app**
 - Local: `http://localhost:7862`
 - The app will also provide a public URL for sharing
+
+</details>
 
 ## 📁 Project Structure
 
