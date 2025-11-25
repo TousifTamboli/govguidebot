@@ -49,13 +49,23 @@ echo [OK] Pip upgraded
 echo.
 
 echo [STEP 4/5] Installing dependencies (this may take 2-5 minutes)...
-pip install -r requirements.txt --quiet
+echo [INFO] Installing core packages...
+pip install -r requirements.txt
 if errorlevel 1 (
     echo [ERROR] Failed to install dependencies
-    pause
-    exit /b 1
+    echo [INFO] Trying to install packages individually...
+    pip install gradio google-generativeai python-dotenv certifi
+    pip install langchain langchain-google-genai langchain-core
+    pip install chromadb pandas numpy
+    pip install requests beautifulsoup4 lxml schedule
+    pip install pytesseract opencv-python PyMuPDF pdf2image Pillow
+    if errorlevel 1 (
+        echo [ERROR] Some packages failed to install
+        echo [INFO] You can still run the basic version without document checker
+        echo [INFO] Run: python app.py
+    )
 )
-echo [OK] All dependencies installed
+echo [OK] Dependencies installation completed
 echo.
 
 REM Check if .env file exists
