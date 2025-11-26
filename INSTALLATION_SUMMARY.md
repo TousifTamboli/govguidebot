@@ -103,17 +103,17 @@ Create a file named `.env` in project root:
 
 **Windows (Command Prompt):**
 ```bash
-echo GOOGLE_API_KEY=AIzaSyAAeKZy5WQGf8NfzkIiYkNNVaxcDRa0COU > .env
+echo GOOGLE_API_KEY=your_api_key > .env
 ```
 
 **Windows (PowerShell):**
 ```powershell
-"GOOGLE_API_KEY=AIzaSyAAeKZy5WQGf8NfzkIiYkNNVaxcDRa0COU" | Out-File -FilePath .env -Encoding utf8
+"GOOGLE_API_KEY=your_api_key" | Out-File -FilePath .env -Encoding utf8
 ```
 
 **Linux/Mac:**
 ```bash
-echo "GOOGLE_API_KEY=AIzaSyAAeKZy5WQGf8NfzkIiYkNNVaxcDRa0COU" > .env
+echo "GOOGLE_API_KEY=your_api_key" > .env
 ```
 
 **Or use any text editor:**

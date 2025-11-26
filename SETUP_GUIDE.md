@@ -152,7 +152,7 @@ echo "GOOGLE_API_KEY=your_api_key_here" > .env
 
 **Or manually create `.env` file with this content:**
 ```env
-GOOGLE_API_KEY=AIzaSyAAeKZy5WQGf8NfzkIiYkNNVaxcDRa0COU
+GOOGLE_API_KEY=your_api_key
 ```
 
 ⚠️ **Replace with your actual API key!**
