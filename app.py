@@ -46,7 +46,7 @@ def reset_chat():
     return [], "Conversation reset!"
 
 # Create Gradio interface
-with gr.Blocks(title="GovGuideBot - Maharashtra Government Documents Assistant", theme=gr.themes.Soft()) as demo:
+with gr.Blocks(title="GovGuideBot - Maharashtra Government Documents Assistant") as demo:
     
     gr.Markdown("""
     # 🏛️ GovGuideBot
@@ -65,8 +65,7 @@ with gr.Blocks(title="GovGuideBot - Maharashtra Government Documents Assistant",
         with gr.Column(scale=4):
             chatbot = gr.Chatbot(
                 height=500,
-                label="Chat with GovGuideBot",
-                bubble_full_width=False
+                label="Chat with GovGuideBot"
             )
             
             with gr.Row():
@@ -150,5 +149,6 @@ if __name__ == "__main__":
     demo.launch(
         server_name="0.0.0.0",
         server_port=7862,
-        share=True  # Creates public URL
+        share=True,  # Creates public URL
+        theme=gr.themes.Soft()
     )
