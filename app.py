@@ -35,8 +35,9 @@ def chat_interface(message, history, language):
     # Get response
     response = bot.chat(message, language=language)
     
-    # Update history
-    history.append((message, response['answer']))
+    # Update history (Gradio 6 uses dict format with 'role' and 'content')
+    history.append({"role": "user", "content": message})
+    history.append({"role": "assistant", "content": response['answer']})
     
     return history, ""
 
