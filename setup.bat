@@ -1,4 +1,6 @@
 @echo off
+setlocal EnableDelayedExpansion
+
 echo ========================================
 echo GovGuideBot - Automated Setup Script
 echo ========================================
@@ -105,4 +107,7 @@ echo   - python app.py              (Basic version)
 echo   - python app_modern.py       (Modern UI)
 echo   - python app_ultra_modern.py (Full-featured with document checker)
 echo.
+
+if "%1"=="--no-pause" goto end
 pause
+:end
