@@ -9,6 +9,7 @@ os.environ['CURL_CA_BUNDLE'] = certifi.where()
 ssl._create_default_https_context = ssl._create_unverified_context
 
 import gradio as gr
+import google.generativeai as genai
 from src.chatbot import GovGuideBot
 from src.config import Config
 
@@ -26,11 +27,13 @@ except Exception as e:
     print(f"⚠️ Update scheduler failed to start: {e}")
     print("Continuing without automatic updates...")
 
-def chat_interface(message, history, language):
+chat_sessions = []
+
+def chat_interface(message, history, language, session_index):
     """Gradio chat interface"""
     
     if not message.strip():
-        return history, ""
+        return history, "", gr.update(), session_index
     
     # Get response
     response = bot.chat(message, language=language)
@@ -39,12 +42,46 @@ def chat_interface(message, history, language):
     history.append({"role": "user", "content": message})
     history.append({"role": "assistant", "content": response['answer']})
     
-    return history, ""
+    if session_index is None or session_index == "":
+        title = message[:30] + "..." if len(message) > 30 else message
+        chat_sessions.append({"title": title, "history": history.copy()})
+        session_index = len(chat_sessions) - 1
+    else:
+        chat_sessions[int(session_index)]["history"] = history.copy()
+        
+    choices = [(s["title"], i) for i, s in enumerate(chat_sessions)]
+    
+    return history, "", gr.update(choices=choices, value=session_index), session_index
 
 def reset_chat():
     """Reset conversation"""
     bot.reset_conversation()
-    return [], "Conversation reset!"
+    return [], "Conversation reset!", gr.update(value=None), None
+
+def load_chat(session_index):
+    """Load a previous chat session"""
+    if session_index is None or session_index == "":
+        return [], None
+    bot.reset_conversation()
+    history = chat_sessions[int(session_index)]["history"]
+    return history.copy(), session_index
+
+def process_audio(audio_path):
+    """Transcribe audio using Gemini"""
+    if not audio_path:
+        return ""
+    try:
+        audio_file = genai.upload_file(audio_path)
+        prompt = "Transcribe exactly what is spoken in this audio. The language might be English, Hindi, or Marathi. Do not answer questions, just return the transcription."
+        response = bot.model.generate_content([prompt, audio_file])
+        try:
+            genai.delete_file(audio_file.name)
+        except:
+            pass
+        return response.text.strip()
+    except Exception as e:
+        print(f"Error processing audio: {e}")
+        return "Error transcribing audio. Please try typing instead."
 
 # Create Gradio interface
 with gr.Blocks(title="GovGuideBot - Maharashtra Government Documents Assistant") as demo:
@@ -62,8 +99,19 @@ with gr.Blocks(title="GovGuideBot - Maharashtra Government Documents Assistant")
     **Languages supported:** English, Hindi (हिंदी), Marathi (मराठी)
     """)
     
+    session_state = gr.State(None)
+    
     with gr.Row():
-        with gr.Column(scale=4):
+        with gr.Column(scale=1):
+            gr.Markdown("### 🕒 Chat History")
+            history_radio = gr.Radio(
+                choices=[],
+                label="Past Sessions",
+                interactive=True
+            )
+            new_chat_btn = gr.Button("➕ New Chat", variant="secondary")
+
+        with gr.Column(scale=3):
             chatbot = gr.Chatbot(
                 height=500,
                 label="Chat with GovGuideBot"
@@ -74,6 +122,12 @@ with gr.Blocks(title="GovGuideBot - Maharashtra Government Documents Assistant")
                     placeholder="Ask me about government documents... Select language above for consistent responses",
                     label="Your Message",
                     scale=4
+                )
+                voice_in = gr.Audio(
+                    sources=["microphone"], 
+                    type="filepath", 
+                    label="Voice Input 🎤", 
+                    scale=1
                 )
                 language_selector = gr.Dropdown(
                     choices=[
@@ -123,19 +177,36 @@ with gr.Blocks(title="GovGuideBot - Maharashtra Government Documents Assistant")
     # Event handlers
     submit_btn.click(
         chat_interface,
-        inputs=[msg, chatbot, language_selector],
-        outputs=[chatbot, msg]
+        inputs=[msg, chatbot, language_selector, session_state],
+        outputs=[chatbot, msg, history_radio, session_state]
     )
     
     msg.submit(
         chat_interface,
-        inputs=[msg, chatbot, language_selector],
-        outputs=[chatbot, msg]
+        inputs=[msg, chatbot, language_selector, session_state],
+        outputs=[chatbot, msg, history_radio, session_state]
     )
     
     clear_btn.click(
         reset_chat,
-        outputs=[chatbot, msg]
+        outputs=[chatbot, msg, history_radio, session_state]
+    )
+
+    new_chat_btn.click(
+        reset_chat,
+        outputs=[chatbot, msg, history_radio, session_state]
+    )
+
+    history_radio.change(
+        load_chat,
+        inputs=[history_radio],
+        outputs=[chatbot, session_state]
+    )
+
+    voice_in.change(
+        process_audio,
+        inputs=[voice_in],
+        outputs=[msg]
     )
     
     gr.Markdown("""
