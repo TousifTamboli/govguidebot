@@ -14,7 +14,7 @@ class Config:
     MAX_OUTPUT_TOKENS = 8192
     
     # Rate Limits (Free tier)
-    REQUESTS_PER_MINUTE = 15
+    REQUESTS_PER_MINUTE = 5
     REQUESTS_PER_DAY = 1500
     
     # Paths

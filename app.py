@@ -38,9 +38,8 @@ def chat_interface(message, history, language, session_index):
     # Get response
     response = bot.chat(message, language=language)
     
-    # Update history (Gradio 6 uses dict format with 'role' and 'content')
-    history.append({"role": "user", "content": message})
-    history.append({"role": "assistant", "content": response['answer']})
+    # Update history (Gradio 3.x uses tuples/list format)
+    history.append([message, response['answer']])
     
     if session_index is None or session_index == "":
         title = message[:30] + "..." if len(message) > 30 else message
@@ -83,98 +82,174 @@ def process_audio(audio_path):
         print(f"Error processing audio: {e}")
         return "Error transcribing audio. Please try typing instead."
 
+
+import hashlib
+
+USER_FILE = "temp_users.txt"
+
+def hash_pw(pw):
+    return hashlib.sha256(pw.encode()).hexdigest()
+
+def do_signup(username, password):
+    if not username or not password:
+        return "Username and password required.", gr.update(), gr.update()
+    
+    users = {}
+    import os
+    if os.path.exists(USER_FILE):
+        with open(USER_FILE, "r") as f:
+            for line in f:
+                if ":" in line:
+                    u, p = line.strip().split(":", 1)
+                    users[u] = p
+                    
+    if username in users:
+        return "Username already exists.", gr.update(), gr.update()
+        
+    with open(USER_FILE, "a") as f:
+        f.write(f"{username}:{hash_pw(password)}\n")
+        
+    return "Signup successful! You can now login.", gr.update(), gr.update()
+
+def do_login(username, password):
+    if not username or not password:
+        return "Username and password required.", gr.update(), gr.update()
+        
+    users = {}
+    import os
+    if os.path.exists(USER_FILE):
+        with open(USER_FILE, "r") as f:
+            for line in f:
+                if ":" in line:
+                    u, p = line.strip().split(":", 1)
+                    users[u] = p
+                    
+    if username in users and users[username] == hash_pw(password):
+        return "Login successful!", gr.update(visible=False), gr.update(visible=True)
+        
+    return "Invalid username or password.", gr.update(), gr.update()
+
 # Create Gradio interface
 with gr.Blocks(title="GovGuideBot - Maharashtra Government Documents Assistant") as demo:
     
-    gr.Markdown("""
-    # 🏛️ GovGuideBot
-    ### AI Assistant for Maharashtra Government Documents
-    
-    Get help with:
-    - Income Certificate (उत्पन्न प्रमाणपत्र)
-    - Caste Certificate (जात प्रमाणपत्र)
-    - Domicile Certificate (अधिवास प्रमाणपत्र)
-    - And more...
-    
-    **Languages supported:** English, Hindi (हिंदी), Marathi (मराठी)
-    """)
-    
-    session_state = gr.State(None)
-    
-    with gr.Row():
-        with gr.Column(scale=1):
-            gr.Markdown("### 🕒 Chat History")
-            history_radio = gr.Radio(
-                choices=[],
-                label="Past Sessions",
-                interactive=True
-            )
-            new_chat_btn = gr.Button("➕ New Chat", variant="secondary")
+    with gr.Column(visible=True) as auth_ui:
+        gr.Markdown("# Welcome to GovGuideBot\nPlease Login or Sign Up to continue.")
+        with gr.Tabs():
+            with gr.Tab("Login"):
+                login_user = gr.Textbox(label="Username")
+                login_pw = gr.Textbox(label="Password", type="password")
+                login_btn = gr.Button("Login", variant="primary")
+                login_msg = gr.Markdown("")
+            with gr.Tab("Sign Up"):
+                signup_user = gr.Textbox(label="New Username")
+                signup_pw = gr.Textbox(label="New Password", type="password")
+                signup_btn = gr.Button("Sign Up", variant="primary")
+                signup_msg = gr.Markdown("")
+                
+    with gr.Column(visible=False) as main_ui:
+        gr.Markdown("""
+        # 🏛️ GovGuideBot
+        ### AI Assistant for Maharashtra Government Documents
 
-        with gr.Column(scale=3):
-            chatbot = gr.Chatbot(
-                height=500,
-                label="Chat with GovGuideBot"
-            )
-            
-            with gr.Row():
-                msg = gr.Textbox(
-                    placeholder="Ask me about government documents... Select language above for consistent responses",
-                    label="Your Message",
-                    scale=4
+        Get help with:
+        - Income Certificate (उत्पन्न प्रमाणपत्र)
+        - Caste Certificate (जात प्रमाणपत्र)
+        - Domicile Certificate (अधिवास प्रमाणपत्र)
+        - And more...
+
+        **Languages supported:** English, Hindi (हिंदी), Marathi (मराठी)
+        """)
+
+        session_state = gr.State(None)
+
+        with gr.Row():
+            with gr.Column(scale=1):
+                gr.Markdown("### 🕒 Chat History")
+                history_radio = gr.Radio(
+                    choices=[],
+                    label="Past Sessions",
+                    interactive=True
                 )
-                voice_in = gr.Audio(
-                    sources=["microphone"], 
-                    type="filepath", 
-                    label="Voice Input 🎤", 
-                    scale=1
+                new_chat_btn = gr.Button("➕ New Chat", variant="secondary")
+
+            with gr.Column(scale=3):
+                chatbot = gr.Chatbot(
+                    height=500,
+                    label="Chat with GovGuideBot"
                 )
-                language_selector = gr.Dropdown(
-                    choices=[
-                        ("Auto-detect", "auto"),
-                        ("English Only", "en"),
-                        ("Hindi Only (हिंदी)", "hi"),
-                        ("Marathi Only (मराठी)", "mr")
-                    ],
-                    value="auto",
-                    label="Response Language",
-                    scale=1
-                )
-            
-            with gr.Row():
-                submit_btn = gr.Button("Send 📤", variant="primary")
-                clear_btn = gr.Button("Clear Chat 🗑️")
-        
-        with gr.Column(scale=1):
-            gr.Markdown("""
-            ### 📚 Quick Links
-            - [Aaple Sarkar Portal](https://aaplesarkar.mahaonline.gov.in/)
-            - [Maharashtra e-District](https://edistrict.maharashtra.gov.in/)
-            
-            ### 💡 Example Questions
-            
-            **English:**
-            - "How do I apply for an income certificate in Pune?"
-            - "What documents are needed for caste certificate?"
-            - "Where is the nearest tehsil office in Mumbai?"
-            
-            **Hindi:**
-            - "मुझे आय प्रमाणपत्र कैसे मिलेगा?"
-            - "जाति प्रमाणपत्र के लिए क्या चाहिए?"
-            
-            **Marathi:**
-            - "उत्पन्न दाखला कसा मिळेल?"
-            - "जात प्रमाणपत्रासाठी काय लागते?"
-            
-            ### ⚡ Features
-            - ✅ Free AI-powered assistance
-            - ✅ Multilingual support
-            - ✅ District-specific information
-            - ✅ Step-by-step guidance
-            - ✅ Office locations & contacts
-            """)
-    
+
+                with gr.Row():
+                    msg = gr.Textbox(
+                        placeholder="Ask me about government documents... Select language above for consistent responses",
+                        label="Your Message",
+                        scale=4
+                    )
+                    voice_in = gr.Audio(
+                        sources=["microphone"], 
+                        type="filepath", 
+                        label="Voice Input 🎤", 
+                        scale=1
+                    )
+                    language_selector = gr.Dropdown(
+                        choices=[
+                            ("Auto-detect", "auto"),
+                            ("English Only", "en"),
+                            ("Hindi Only (हिंदी)", "hi"),
+                            ("Marathi Only (मराठी)", "mr")
+                        ],
+                        value="auto",
+                        label="Response Language",
+                        scale=1
+                    )
+
+                with gr.Row():
+                    submit_btn = gr.Button("Send 📤", variant="primary")
+                    clear_btn = gr.Button("Clear Chat 🗑️")
+
+            with gr.Column(scale=1):
+                gr.Markdown("""
+                ### 📚 Quick Links
+                - [Aaple Sarkar Portal](https://aaplesarkar.mahaonline.gov.in/)
+                - [Maharashtra e-District](https://edistrict.maharashtra.gov.in/)
+
+                ### 💡 Example Questions
+
+                **English:**
+                - "How do I apply for an income certificate in Pune?"
+                - "What documents are needed for caste certificate?"
+                - "Where is the nearest tehsil office in Mumbai?"
+
+                **Hindi:**
+                - "मुझे आय प्रमाणपत्र कैसे मिलेगा?"
+                - "जाति प्रमाणपत्र के लिए क्या चाहिए?"
+
+                **Marathi:**
+                - "उत्पन्न दाखला कसा मिळेल?"
+                - "जात प्रमाणपत्रासाठी काय लागते?"
+
+                ### ⚡ Features
+                - ✅ Free AI-powered assistance
+                - ✅ Multilingual support
+                - ✅ District-specific information
+                - ✅ Step-by-step guidance
+                - ✅ Office locations & contacts
+                """)
+
+
     # Event handlers
+
+    login_btn.click(
+        do_login,
+        inputs=[login_user, login_pw],
+        outputs=[login_msg, auth_ui, main_ui]
+    )
+    
+    signup_btn.click(
+        do_signup,
+        inputs=[signup_user, signup_pw],
+        outputs=[signup_msg, auth_ui, main_ui]
+    )
+    
     submit_btn.click(
         chat_interface,
         inputs=[msg, chatbot, language_selector, session_state],
@@ -221,6 +296,5 @@ if __name__ == "__main__":
     demo.launch(
         server_name="0.0.0.0",
         server_port=7862,
-        share=True,  # Creates public URL
-        theme=gr.themes.Soft()
+        share=True  # Creates public URL
     )

@@ -66,4 +66,5 @@ list_*.py
 # Temporary files
 *.tmp
 *.bak
+temp_users.txt
 *.swp

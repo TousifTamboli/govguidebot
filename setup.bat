@@ -56,7 +56,7 @@ pip install -r requirements.txt
 if errorlevel 1 (
     echo [ERROR] Failed to install dependencies
     echo [INFO] Trying to install packages individually...
-    pip install gradio google-generativeai python-dotenv certifi
+    pip install "gradio==3.50.2" "gradio-client==0.6.1" "huggingface-hub==0.19.4" google-generativeai python-dotenv certifi
     pip install langchain langchain-google-genai langchain-core
     pip install chromadb pandas numpy
     pip install requests beautifulsoup4 lxml schedule
