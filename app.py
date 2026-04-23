@@ -295,6 +295,6 @@ with gr.Blocks(title="GovGuideBot - Maharashtra Government Documents Assistant")
 if __name__ == "__main__":
     demo.launch(
         server_name="0.0.0.0",
-        server_port=7862,
+        server_port=5000,
         share=True  # Creates public URL
     )
