@@ -15,57 +15,10 @@ An intelligent AI-powered chatbot that helps citizens of Maharashtra, India navi
 - **Multi-format Support**: JPG, PNG, TIFF, PDF
 - **Advanced OCR**: Multiple preprocessing techniques for better accuracy
 - **ML-based Detection**: Intelligent document type identification
-- **Security Validation**: Fraud detection and authenticity verification
-- **Batch Processing**: Validate multiple documents at once
 - **Detailed Analysis**: Confidence scores, field detection, and comprehensive reports
 
-### 🎨 Multiple UI Versions
-- **Basic Version** (`app.py`): Clean, simple interface
-- **Modern Version** (`app_modern.py`): Enhanced UI with modern design
-- **Ultra-Modern Version** (`app_ultra_modern.py`): Full-featured with document checker
-
-## 🚀 Quick Start
-
-### ⚡ Automated Setup (Recommended)
-
-**Windows:**
-```bash
-git clone https://github.com/TousifTamboli/govguidebot.git
-cd govguidebot
-setup.bat
-run.bat
-```
-
-**Linux/Mac:**
-```bash
-git clone https://github.com/TousifTamboli/govguidebot.git
-cd govguidebot
-chmod +x setup.sh run.sh
-./setup.sh
-./run.sh
-```
-
-**That's it!** Open http://localhost:7862 in your browser.
-
----
-
-### 📖 Detailed Setup Guides
-
-- **⚡ Quick Start:** [QUICK_START.md](QUICK_START.md) - Fast reference
-- **📋 Complete Guide:** [SETUP_GUIDE.md](SETUP_GUIDE.md) - Step-by-step instructions
-- **📦 Installation Summary:** [INSTALLATION_SUMMARY.md](INSTALLATION_SUMMARY.md) - Visual guide
-
----
-
-### 🔧 Manual Installation
-
-<details>
-<summary>Click to expand manual installation steps</summary>
-
 ### Prerequisites
-- Python 3.8 or higher
-- Google AI API Key ([Get it here](https://aistudio.google.com/app/apikey))
-- Tesseract OCR (for document validation)
+- Docker installed in your system
 
 ### Steps
 
@@ -75,46 +28,13 @@ git clone https://github.com/TousifTamboli/govguidebot.git
 cd govguidebot
 ```
 
-2. **Create virtual environment**
+2. **Run docker-compose**
 ```bash
-python -m venv venv
-```
-
-3. **Activate virtual environment**
-- Windows:
-  ```bash
-  venv\Scripts\activate
-  ```
-- Linux/Mac:
-  ```bash
-  source venv/bin/activate
-  ```
-
-4. **Install dependencies**
-```bash
-pip install -r requirements.txt
-```
-
-5. **Set up environment variables**
-Create a `.env` file in the root directory:
-```env
-GOOGLE_API_KEY=your_google_api_key_here
-```
-
-6. **Run the application**
-```bash
-# Basic version
-python app.py
-
-# Modern version
-python app_modern.py
-
-# Ultra-modern version (with document checker)
-python app_ultra_modern.py
+docker-compose up --build
 ```
 
 7. **Access the app**
-- Local: `http://localhost:7862`
+- Local: `http://localhost:5001/`
 - The app will also provide a public URL for sharing
 
 </details>
@@ -124,9 +44,6 @@ python app_ultra_modern.py
 ```
 govguidebot/
 ├── app.py                          # Basic version
-├── app_modern.py                   # Modern UI version
-├── app_ultra_modern.py             # Full-featured version
-├── document_validity_checker.py    # Document validation module
 ├── requirements.txt                # Python dependencies
 ├── .env                           # Environment variables (not in git)
 ├── data/                          # Certificate data
@@ -200,10 +117,6 @@ Free tier limits (configurable in `src/config.py`):
 - ✅ Income Certificate
 - ✅ Non-Creamy Layer Certificate
 
-### File Formats
-- Images: JPG, PNG, TIFF
-- Documents: PDF
-
 ## 🔐 Security Features
 
 - **Fraud Detection**: Identifies suspicious documents
@@ -245,9 +158,7 @@ For issues, questions, or suggestions:
 ## 🔄 Updates
 
 The system automatically monitors government websites for updates:
-- Every 6 hours
-- Daily at 9 AM
-- Weekly on Monday
+- Every time when run
 
 ---
 
